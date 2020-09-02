@@ -1,0 +1,50 @@
+<!DOCTYPE model>
+<Option type="Map">
+  <Option type="Map" name="children">
+    <Option type="Map" name="qgis:postgisexecuteandloadsql_1">
+      <Option type="bool" name="active" value="true"/>
+      <Option name="alg_config"/>
+      <Option type="QString" name="alg_id" value="qgis:postgisexecuteandloadsql"/>
+      <Option type="QString" name="component_description" value="Ejecutar SQL y cargar desde PostgreSQL"/>
+      <Option type="double" name="component_pos_x" value="333"/>
+      <Option type="double" name="component_pos_y" value="316"/>
+      <Option name="dependencies"/>
+      <Option type="QString" name="id" value="qgis:postgisexecuteandloadsql_1"/>
+      <Option name="outputs"/>
+      <Option type="bool" name="outputs_collapsed" value="true"/>
+      <Option type="bool" name="parameters_collapsed" value="true"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DATABASE">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="QString" name="static_value" value="Segmentacion_2020"/>
+          </Option>
+        </Option>
+        <Option type="List" name="GEOMETRY_FIELD">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="QString" name="static_value" value="wkb_geometry"/>
+          </Option>
+        </Option>
+        <Option type="List" name="ID_FIELD">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="QString" name="static_value" value="ogc_fid"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SQL">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="QString" name="static_value" value="select * from e0531.arc"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
+  <Option name="help"/>
+  <Option name="modelVariables"/>
+  <Option type="QString" name="model_group" value=""/>
+  <Option type="QString" name="model_name" value="radio"/>
+  <Option name="parameterDefinitions"/>
+  <Option name="parameters"/>
+</Option>
