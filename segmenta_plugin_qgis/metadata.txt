@@ -6,14 +6,17 @@
 name=Censo Segmento
 qgisMinimumVersion=3.0
 description=Censo Segmento
-version=0.1
+version=0.2
 author=Maximiliano Monti
 email=renzomiguelmonti@gmail.com
+author=Manuel Retamozo
+email=mretamozo.at.indec.gob.ar
 
-about=Provide a brief description of the plugin and its purpose.
+about=Este plugin es una interfaz para la generación de las salidas gráficas
+de los planos de segmento y planos de segmentos por radio censal.
 
-tracker=http://bugs
-repository=http://repo
+tracker=https://gitlab.indec.gob.ar/proyecto-mandarina/qgis-plugin-segmentador/issues
+repository=https://gitlab.indec.gob.ar/proyecto-mandarina/qgis-plugin-segmentador
 # End of mandatory metadata
 
 # Recommended items:
@@ -39,8 +42,8 @@ deprecated=False
 # Check the documentation for more information.
 # plugin_dependencies=
 
-Category of the plugin: Raster, Vector, Database or Web
-# category=
+# Category of the plugin: Raster, Vector, Database or Web
+category= Database
 
 # If the plugin can run on QGIS Server.
 server=False
