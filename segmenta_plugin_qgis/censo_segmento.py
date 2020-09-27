@@ -221,7 +221,7 @@ class CensoSegmento:
         QgsProject.instance().addMapLayer(layer)
         renderer = layer.renderer()
         layer.loadNamedStyle(origen[0] + '\estilo_radio\segmentos.qml')
-        iface.mapCanvas().refresh() 
+        self.iface.mapCanvas().refresh() 
         QgsProject.instance().mapLayers().values()
         layer.triggerRepaint()
 
