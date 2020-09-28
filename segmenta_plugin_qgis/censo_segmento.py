@@ -62,7 +62,7 @@ class CensoSegmento:
 
         # Declare instance attributes
         self.actions = []
-        self.menu = self.tr(u'&Censo Segmento')
+        self.menu = self.tr(u'&INDEC - CNPHyV')
 
         # Check if plugin was started the first time in current QGIS session
         # Must be set in initGui() to survive plugin reloads
@@ -92,8 +92,8 @@ class CensoSegmento:
         enabled_flag=True,
         add_to_menu=True,
         add_to_toolbar=True,
-        status_tip=None,
-        whats_this=None,
+        status_tip='Por aca puede ir la cosa',
+        whats_this='Que es esto',
         parent=None):
         """Add a toolbar icon to the toolbar.
 
@@ -166,8 +166,22 @@ class CensoSegmento:
         poll_icon_path = os.path.join(current_dir,'icons/poll.png')
         self.add_action(
             poll_icon_path,
-            text=self.tr(u''),
+            text=self.tr(u'Menu Principal'),
             callback=self.run,
+            parent=self.iface.mainWindow())
+
+        self.add_action(
+            poll_icon_path,
+            add_to_toolbar=False,
+            text=self.tr(u'Plano de Radio'),
+            callback=self.runRadio,
+            parent=self.iface.mainWindow())
+
+        self.add_action(
+            poll_icon_path,
+            add_to_toolbar=False,
+            text=self.tr(u'Plano de Segmentación'),
+            callback=self.runSegmentacion,
             parent=self.iface.mainWindow())
 
         # will be set False in run()
@@ -250,7 +264,7 @@ class CensoSegmento:
         QgsProject.instance().addMapLayer(layer)
         renderer = layer.renderer()
         layer.loadNamedStyle(r''+origen[0]+'\estilo_radio\mascara.qml')
-        iface.mapCanvas().refresh() 
+        self.iface.mapCanvas().refresh() 
         QgsProject.instance().mapLayers().values()
         layer.triggerRepaint()
 
@@ -263,7 +277,7 @@ class CensoSegmento:
         QgsProject.instance().addMapLayer(layer)
         renderer = layer.renderer()
         layer.loadNamedStyle(origen[0] + '\estilo_radio\especiales.qml')
-        iface.mapCanvas().refresh() 
+        this.iface.mapCanvas().refresh() 
         QgsProject.instance().mapLayers().values()
         layer.triggerRepaint()
 
@@ -365,7 +379,7 @@ class CensoSegmento:
         QgsProject.instance().addMapLayer(layer)
         renderer = layer.renderer()
         layer.loadNamedStyle(origen[0] + '\estilo_segmento\segmento.qml')
-        iface.mapCanvas().refresh() 
+        this.iface.mapCanvas().refresh() 
         QgsProject.instance().mapLayers().values()
         layer.triggerRepaint()
 
