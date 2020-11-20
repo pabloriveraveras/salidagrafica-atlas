@@ -5,13 +5,13 @@ from PyQt5.QtCore import QSettings, QTranslator, qVersion, QVersionNumber, QCore
 from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QAction, QDialog, QFormLayout
 
-usuario = QInputDialog.getText(None, 'usuario', 'Introduce su nombre usuario')
+
 
 #Añadiendo capas PostGIS
 uri = QgsDataSourceUri()
  
 # introducimos nombre del servidor, puerto, nombre de la base de datos, usuario y contraseña
-uri.setConnection("172.26.68.174", "5432", "seg", usuario[0], "vero_1234")
+uri.setConnection("", "", "", "" , "")
 
 
 origen = QInputDialog.getText(None, 'origen', 'Introduce la ruta de acceso')
