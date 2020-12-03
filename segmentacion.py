@@ -6,7 +6,6 @@ from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QAction, QDialog, QFormLayout
 
 
-
 #Añadiendo capas PostGIS
 uri = QgsDataSourceUri()
  
