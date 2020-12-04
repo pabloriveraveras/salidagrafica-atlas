@@ -221,6 +221,7 @@ class CensoSegmento:
         from qgis.utils import iface
         #####################################Conexion existente en el admnistrador de BD##############################################
         ##########Conexion desde BD a Postgis
+        QgsProject.instance().clear()
         qs = QSettings()
         dbHost = qs.value("PostgreSQL/connections/informatica/host")
         dbPort = qs.value("PostgreSQL/connections/informatica/port")
@@ -382,6 +383,7 @@ class CensoSegmento:
         from qgis.utils import iface
         #####################################Conexion existente en el admnistrador de BD##############################################
         ##########Conexion desde BD a Postgis
+        QgsProject.instance().clear()
         qs = QSettings()
         dbHost = qs.value("PostgreSQL/connections/informatica/host")
         dbPort = qs.value("PostgreSQL/connections/informatica/port")
