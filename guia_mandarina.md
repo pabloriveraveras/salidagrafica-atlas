@@ -1,4 +1,4 @@
-#Guía Mandarina-Salida Grafica
+# Guía Mandarina-Salida Grafica
 
 **Instalar VPN**
 
