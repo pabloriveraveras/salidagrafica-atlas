@@ -4,6 +4,19 @@ from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QAction, QDialog, QFormLayout 
 from qgis.PyQt.QtXml import QDomDocument
 #####################################Conexion PostGIS##############################################
+from qgis.utils import iface
+#####################################Conexion existente en el admnistrador de BD##############################################
+##########Conexion desde BD a Postgis
+qs = QSettings()
+dbHost = qs.value("PostgreSQL/connections/informatica/host")
+dbPort = qs.value("PostgreSQL/connections/informatica/port")
+dbName = qs.value("PostgreSQL/connections/informatica/database")
+
+############Pedir al usuario cargar los campos de  usuario y contraseña
+dbUsr = QInputDialog.getText(None, 'usuario', 'Introduce el nombre de usuario de la base de datos')
+dbPwd = QInputDialog.getText(None, 'contraseña', 'Introduce la contraseña')
+
+#####################################Conexion PostGIS##############################################
 
 # introducimos nombre del servidor, puerto, nombre de la base de datos, usuario y contraseña
 uri = QgsDataSourceUri()
@@ -15,9 +28,7 @@ aglomerado = QInputDialog.getText(None, 'aglomerado', 'Introduce el nombre compl
 
 
 ####################### Agrego las tablas .CSV de datos geograficos############################
-
-
-# Agrego tabla provincia
+####### Agrego tabla provincia
 capa = origen[0] + '\datos_prov\provincia.csv'
 nomcapa = 'provincia'  
 layer = QgsVectorLayer(capa,nomcapa,'ogr')
@@ -25,9 +36,7 @@ if not layer.isValid():
     print ("la capa no es correcta")
 QgsProject.instance().addMapLayer(layer)
 renderer = layer.renderer()
-
-################## Agrego tabla departamento##################################
-
+####### Agrego tabla departamento##################################
 capa = (origen[0] + '\datos_prov\departamentos.csv')
 nomcapa = 'departamento'  
 layer = QgsVectorLayer(capa,nomcapa,'ogr')
@@ -35,8 +44,7 @@ if not layer.isValid():
     print ("la capa no es correcta")
 QgsProject.instance().addMapLayer(layer)
 renderer = layer.renderer()
-
-################## Agrego tabla localidad######################
+#######  Agrego tabla localidad######################
 capa = (origen[0] + '\datos_prov\localidad.csv')
 nomcapa = 'localidad'  
 layer = QgsVectorLayer(capa,nomcapa,'ogr')
@@ -44,12 +52,8 @@ if not layer.isValid():
     print ("la capa no es correcta")
 QgsProject.instance().addMapLayer(layer)
 renderer = layer.renderer()
-
-
 ########################## Agrego todas las capas al proyecto###################################
-
-
-# Agrego la capa  Segmento
+####### Agrego la capa  Segmento
 uri.setDataSource(aglomerado[0], "arc" , "wkb_geometry" )
 layer = QgsVectorLayer(uri.uri(), "Segmentacion", "postgres")
 if not layer.isValid():
@@ -60,9 +64,7 @@ layer.loadNamedStyle(origen[0] + '\estilo_radio\segmentos.qml')
 iface.mapCanvas().refresh() 
 QgsProject.instance().mapLayers().values()
 layer.triggerRepaint()
-
-
-#Agrego la capa  Mascara desde BD
+########Agrego la capa  Mascara 
 sql = aglomerado[0] + ".v_radios"
 uri.setDataSource("", "( select * from " + sql + ")","wkb_geometry","","gid")
 vlayer = QgsVectorLayer(uri.uri(),"Mascara","postgres")
@@ -74,12 +76,7 @@ vlayer.loadNamedStyle(origen[0] +'\estilo_radio\mascara.qml')
 iface.mapCanvas().refresh() 
 QgsProject.instance().mapLayers().values()
 vlayer.triggerRepaint() 
-
-
-
-
-
-# Agrego la capa  Especiales
+#######Agrego la capa  Especiales
 uri.setDataSource(aglomerado[0], "arc" , "wkb_geometry" )
 layer = QgsVectorLayer(uri.uri(), "CodEspeciales", "postgres")
 if not layer.isValid():
@@ -90,8 +87,7 @@ layer.loadNamedStyle(origen[0] + '\estilo_radio\especiales.qml')
 iface.mapCanvas().refresh() 
 QgsProject.instance().mapLayers().values()
 layer.triggerRepaint()
-
-#Agrego la capa  Radios desde BD
+####### Agrego la capa  Radios desde BD
 sql = aglomerado[0] + ".v_radios"
 uri.setDataSource("", "( select * from " + sql + ")","wkb_geometry","","gid")
 vlayer = QgsVectorLayer(uri.uri(),"Radio","postgres")
@@ -103,10 +99,7 @@ vlayer.loadNamedStyle(origen[0] +'\estilo_radio\pradio.qml')
 iface.mapCanvas().refresh() 
 QgsProject.instance().mapLayers().values()
 vlayer.triggerRepaint() 
-
-
-
-# Agrego la capa Etiquetas Manzanas  
+####### Agrego la capa Etiquetas Manzanas  
 uri.setDataSource(aglomerado[0] , "lab" , "wkb_geometry" )
 layer = QgsVectorLayer(uri.uri(), "Etiqueta_manzana", "postgres")
 if not layer.isValid():
@@ -118,37 +111,32 @@ iface.mapCanvas().refresh()
 QgsProject.instance().mapLayers().values()
 layer.triggerRepaint() 
 
-
 ############################# Agrego la capa Descripcion ########################### 
-#uri.setDataSource(aglomerado[0] , "select * from e0359.descripcion_segmentos" , "wkb_geometry" )
-#layer = QgsVectorLayer(uri.uri(), "descripcion", "postgres")
-#if not layer.isValid():
-#    print ("No se cargo capa Descripcion")
-#QgsProject.instance().addMapLayer(layer)
-#renderer = layer.renderer()
-#layer.loadNamedStyle(origen[0] +'\estilo_radio\manzanas.qml')
-#iface.mapCanvas().refresh() 
-#QgsProject.instance().mapLayers().values()
-#layer.triggerRepaint() 
+sql = aglomerado[0] + ".descripcion_segmentos"
+uri.setDataSource("", "( select * from " + sql + ")","geom","","link")
+layer = QgsVectorLayer(uri.uri(), "descripcion", "postgres")
+if not layer.isValid():
+    print ("No se cargo capa Descripcion")
+QgsProject.instance().addMapLayer(layer)
+renderer = layer.renderer()
+layer.loadNamedStyle(origen[0] +'\estilo_radio\descripcion.qml')
+iface.mapCanvas().refresh() 
+QgsProject.instance().mapLayers().values()
+layer.triggerRepaint() 
+
 
 ########################### Agregar plantillas de salida##############
-
 #### Plantilla tamaño A4 ###############  
-
 pry= QgsProject.instance()
-
 #Añadi una verificación de la ruta del archivo qtp
-
 ruta= origen[0] + r'/plantillas/radio_a4.qpt'
 if os.path.exists(ruta):
     with open(ruta, 'r') as templateFile:
         myTemplateContent = templateFile.read()
-   
     layout=QgsPrintLayout(pry)
     lmg = QgsProject.instance().layoutManager()
     layout.setName("A4")
     layout.initializeDefaults()
-   
     myDocument = QDomDocument()
     myDocument.setContent(myTemplateContent)
     ms = QgsMapSettings()
@@ -156,20 +144,16 @@ if os.path.exists(ruta):
     lmg.addLayout(layout)
 else:
     print("error en la ruta del archivo" )
-    
+
 #### Plantilla tamaño A3 ###############  
-
-
 ruta2= ruta= origen[0] + r'/plantillas/radio_a3.qpt'
 if os.path.exists(ruta2):
     with open(ruta2, 'r') as templateFile:
         myTemplateContent = templateFile.read()
-    
     layout=QgsPrintLayout(pry)
     lmg = QgsProject.instance().layoutManager()
     layout.setName("A3")
     layout.initializeDefaults()
-   
     myDocument = QDomDocument()
     myDocument.setContent(myTemplateContent)
     ms = QgsMapSettings()
@@ -177,3 +161,4 @@ if os.path.exists(ruta2):
     lmg.addLayout(layout)
 else:
     print("error en la ruta del archivo A3")
+
