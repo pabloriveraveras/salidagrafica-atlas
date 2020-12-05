@@ -25,7 +25,7 @@ from PyQt5.QtCore import QSettings, QTranslator, qVersion, QVersionNumber, QCore
 from qgis.PyQt.QtGui import QIcon
 from PyQt5.QtWidgets import QAction, QDialog, QFormLayout, QInputDialog
 from qgis.PyQt.QtXml import QDomDocument
-
+from qgis.utils import iface
 from qgis.core import *
 
 # Initialize Qt resources from file resources.py
@@ -217,7 +217,7 @@ class CensoSegmento:
 
 
 
-    def runRadio(self):
+    def runRadio(self, iface):
         from qgis.utils import iface
         #####################################Conexion existente en el admnistrador de BD##############################################
         ##########Conexion desde BD a Postgis
@@ -379,7 +379,7 @@ class CensoSegmento:
 
 
 
-    def runSegmentacion(self):
+    def runSegmentacion(self , iface):
         from qgis.utils import iface
         #####################################Conexion existente en el admnistrador de BD##############################################
         ##########Conexion desde BD a Postgis
