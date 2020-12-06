@@ -1,58 +1,57 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis simplifyDrawingHints="1" minScale="1e+08" simplifyAlgorithm="0" simplifyDrawingTol="1" simplifyMaxScale="1" labelsEnabled="1" styleCategories="AllStyleCategories" version="3.10.7-A Coruña" maxScale="0" readOnly="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1">
+<qgis styleCategories="AllStyleCategories" minScale="1e+08" simplifyAlgorithm="0" simplifyDrawingTol="1" simplifyDrawingHints="1" labelsEnabled="1" version="3.10.10-A Coruña" maxScale="0" readOnly="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" simplifyMaxScale="1">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
     <Searchable>1</Searchable>
   </flags>
-  <renderer-v2 forceraster="0" enableorderby="0" symbollevels="0" type="RuleRenderer">
+  <renderer-v2 type="RuleRenderer" enableorderby="0" symbollevels="0" forceraster="0">
     <rules key="{0279961b-223b-424b-ae38-415cf227ac90}">
-      <rule filter="((attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 1)&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;((attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) )and &#xd;&#xa;&quot;segd&quot; = 1&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;" symbol="0" key="{eaec5dc0-9c16-4e3a-aa8b-0a12ff39befd}" label="Segmento 01"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 2&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 2&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="1" key="{9142dc70-4dce-49a1-9c2d-7614ef155b9d}" label="Segmento 02"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 3&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 3&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="2" key="{629a52dc-a139-48ef-a895-11585bd5e47c}" label="Segmento 03"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 4&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 4&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="3" key="{b8b9b442-c78f-4fdc-92df-2a4679f48a0a}" label="Segmento 04"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 5&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 5&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="4" key="{11f7615d-02f3-4ccc-8dd8-7613f33eb45c}" label="Segmento 05"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 6&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 6&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="5" key="{adb620ab-6899-4e12-ba42-7229af690c76}" label="Segmento 06"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 7&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 7&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="6" key="{d770ab80-8ab7-4842-8b2b-c543aeffb341}" label="Segmento 07"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 8&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 8&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="7" key="{92bc970e-9e1b-4298-8f6b-1a4aca5d28aa}" label="Segmento 08"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 9&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 9&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="8" key="{0e90ec5d-8cc6-4c4a-8fc2-cb5541b556c6}" label="Segmento 09"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 10&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 10&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="9" key="{92f6ce05-9629-4640-932b-8fd0cbe94398}" label="Segmento 10"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 11&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 11&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="10" key="{f359e80b-7b4d-4a18-b751-358519304b50}" label="Segmento 11"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 12&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 12&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="11" key="{73704d4a-88ef-4844-b27e-44758ca4e12d}" label="Segmento 12"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 13&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 13&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="12" key="{b81807ed-30e7-4119-bba1-40635179528f}" label="Segmento 13"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 14&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 14&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="13" key="{e66335ed-0a0c-4f0b-b8d0-dc1a183220fd}" label="Segmento 14"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 15&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 15&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="14" key="{571cf299-64a6-4d93-ae33-439c543ed2bd}" label="Segmento 15"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 16&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 16&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="15" key="{3469e07a-2769-486c-8155-618af9c00891}" label="Segmento 16"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 17&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 17&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="16" key="{6d04d439-5e35-4107-9133-44aeac12ccbf}" label="Segmento 17"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 18&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 18&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="17" key="{019949d8-75d4-4a1c-9018-06d761123e72}" label="Segmento 18"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 19&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 19&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="18" key="{5b290653-e46d-44e7-bc91-9df1752a197e}" label="Segmento 19"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 20&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 20&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="19" key="{43712dac-7225-4bbc-9bd8-dfc323521a02}" label="Segmento 20"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 21&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 21&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="20" key="{c4c96ff7-37e0-4758-822a-a1392e2f5798}" label="Segmento 21"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 22&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 22&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="21" key="{56140684-c853-41c2-a7c7-a21559dcc4b5}" label="Segmento 22"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 23&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 23&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="22" key="{4ba8f032-2793-4532-b7d6-c84e7f52dcb3}" label="Segmento 23"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 24&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 24&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="23" key="{7eae45bb-5dea-4bd9-abf4-fe81caa4c3d8}" label="Segmento 24"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 25&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 25&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="24" key="{06423852-8256-4cfa-8d53-0c9299c6af51}" label="Segmento 25"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 26&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 26&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="25" key="{c0b181d6-5722-4185-aab3-6f1f55e4aa86}" label="Segmento 26"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 27&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 27&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="26" key="{7d135794-99f3-4e29-89f1-44257e149529}" label="Segmento 27"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 28&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 28&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="27" key="{b4b920e6-099b-4e0b-bee5-14e3a625d3b0}" label="Segmento 28"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 29&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 29&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="28" key="{8944b528-d8f2-4bc7-bc1e-dc67658d170f}" label="Segmento 29"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 30&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 30&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="29" key="{99414d6a-8ab7-46c6-b275-60a03eb04658}" label="Segmento 30"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 31&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 31&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="30" key="{6aac9b15-3025-4442-aaf8-75b3bd64b15c}" label="Segmento 31"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 32&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 32&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="31" key="{3018465e-d83e-4947-b7e5-2da176c22178}" label="Segmento 32"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 33&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 33&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="32" key="{3bfeaa01-4252-46ad-a8b3-6d1b635a5d0a}" label="Segmento 33"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 34&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 34&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="33" key="{6a774ab7-3fda-4a00-8d2d-0acc5e0f2d9f}" label="Segmento 34"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 35&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 35&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="34" key="{5cd49896-2ac5-4bdc-93b1-bd278b995e0a}" label="Segmento 35"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 36&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 36&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="35" key="{f900832a-fc5a-4f5e-b962-15fdc6c355c0}" label="Segmento 36"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 37&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 37&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="36" key="{1d4bde34-0a62-474e-a421-402aaf82fa99}" label="Segmento 37"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 38&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 38&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="37" key="{1d9013fd-7ba0-4651-978c-3111940ca524}" label="Segmento 38"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 39&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 39&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="38" key="{764edde8-9fc0-4f0f-8bd3-609e68873070}" label="Segmento 39"/>
-      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 40&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 40&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="39" key="{93544ebb-9d47-4848-8a70-ce826c4314a7}" label="Segmento 40"/>
+      <rule filter="((attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 1)&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;((attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) )and &#xd;&#xa;&quot;segd&quot; = 1&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;" symbol="0" label="Segmento 01" key="{eaec5dc0-9c16-4e3a-aa8b-0a12ff39befd}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 2&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 2&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="1" label="Segmento 02" key="{9142dc70-4dce-49a1-9c2d-7614ef155b9d}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 3&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 3&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="2" label="Segmento 03" key="{629a52dc-a139-48ef-a895-11585bd5e47c}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 4&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 4&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="3" label="Segmento 04" key="{b8b9b442-c78f-4fdc-92df-2a4679f48a0a}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 5&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 5&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="4" label="Segmento 05" key="{11f7615d-02f3-4ccc-8dd8-7613f33eb45c}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 6&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 6&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="5" label="Segmento 06" key="{adb620ab-6899-4e12-ba42-7229af690c76}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 7&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 7&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="6" label="Segmento 07" key="{d770ab80-8ab7-4842-8b2b-c543aeffb341}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 8&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 8&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="7" label="Segmento 08" key="{92bc970e-9e1b-4298-8f6b-1a4aca5d28aa}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 9&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 9&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="8" label="Segmento 09" key="{0e90ec5d-8cc6-4c4a-8fc2-cb5541b556c6}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 10&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 10&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="9" label="Segmento 10" key="{92f6ce05-9629-4640-932b-8fd0cbe94398}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 11&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 11&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="10" label="Segmento 11" key="{f359e80b-7b4d-4a18-b751-358519304b50}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 12&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 12&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="11" label="Segmento 12" key="{73704d4a-88ef-4844-b27e-44758ca4e12d}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 13&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 13&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="12" label="Segmento 13" key="{b81807ed-30e7-4119-bba1-40635179528f}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 14&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 14&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="13" label="Segmento 14" key="{e66335ed-0a0c-4f0b-b8d0-dc1a183220fd}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 15&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 15&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="14" label="Segmento 15" key="{571cf299-64a6-4d93-ae33-439c543ed2bd}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 16&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 16&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="15" label="Segmento 16" key="{3469e07a-2769-486c-8155-618af9c00891}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 17&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 17&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="16" label="Segmento 17" key="{6d04d439-5e35-4107-9133-44aeac12ccbf}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 18&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 18&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="17" label="Segmento 18" key="{019949d8-75d4-4a1c-9018-06d761123e72}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 19&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 19&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="18" label="Segmento 19" key="{5b290653-e46d-44e7-bc91-9df1752a197e}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 20&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 20&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="19" label="Segmento 20" key="{43712dac-7225-4bbc-9bd8-dfc323521a02}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 21&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 21&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="20" label="Segmento 21" key="{c4c96ff7-37e0-4758-822a-a1392e2f5798}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 22&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 22&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="21" label="Segmento 22" key="{56140684-c853-41c2-a7c7-a21559dcc4b5}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 23&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 23&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="22" label="Segmento 23" key="{4ba8f032-2793-4532-b7d6-c84e7f52dcb3}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 24&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 24&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="23" label="Segmento 24" key="{7eae45bb-5dea-4bd9-abf4-fe81caa4c3d8}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 25&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 25&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="24" label="Segmento 25" key="{06423852-8256-4cfa-8d53-0c9299c6af51}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 26&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 26&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="25" label="Segmento 26" key="{c0b181d6-5722-4185-aab3-6f1f55e4aa86}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 27&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 27&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="26" label="Segmento 27" key="{7d135794-99f3-4e29-89f1-44257e149529}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 28&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 28&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="27" label="Segmento 28" key="{b4b920e6-099b-4e0b-bee5-14e3a625d3b0}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 29&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 29&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="28" label="Segmento 29" key="{8944b528-d8f2-4bc7-bc1e-dc67658d170f}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 30&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 30&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="29" label="Segmento 30" key="{99414d6a-8ab7-46c6-b275-60a03eb04658}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 31&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 31&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="30" label="Segmento 31" key="{6aac9b15-3025-4442-aaf8-75b3bd64b15c}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 32&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 32&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="31" label="Segmento 32" key="{3018465e-d83e-4947-b7e5-2da176c22178}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 33&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 33&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="32" label="Segmento 33" key="{3bfeaa01-4252-46ad-a8b3-6d1b635a5d0a}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 34&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 34&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="33" label="Segmento 34" key="{6a774ab7-3fda-4a00-8d2d-0acc5e0f2d9f}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 35&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 35&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="34" label="Segmento 35" key="{5cd49896-2ac5-4bdc-93b1-bd278b995e0a}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 36&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 36&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="35" label="Segmento 36" key="{f900832a-fc5a-4f5e-b962-15fdc6c355c0}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 37&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 37&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="36" label="Segmento 37" key="{1d4bde34-0a62-474e-a421-402aaf82fa99}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 38&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 38&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="37" label="Segmento 38" key="{1d9013fd-7ba0-4651-978c-3111940ca524}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 39&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 39&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="38" label="Segmento 39" key="{764edde8-9fc0-4f0f-8bd3-609e68873070}"/>
+      <rule filter="(attribute (@atlas_feature ,'radio') = substr (&quot;mzai&quot;,11,2) and &#xd;&#xa;&quot;segi&quot; = 40&#xd;&#xa;and&#xd;&#xa;segi = attribute(@atlas_feature, 'seg') )&#xd;&#xa;or&#xd;&#xa;(attribute (@atlas_feature ,'radio') = substr (&quot;mzad&quot;,11,2) and &#xd;&#xa;&quot;segd&quot; = 40&#xd;&#xa;and&#xd;&#xa;segd = attribute(@atlas_feature, 'seg') )&#xd;&#xa;" symbol="39" label="Segmento 40" key="{93544ebb-9d47-4848-8a70-ce826c4314a7}"/>
       <rule symbol="40" key="{04c40083-dd01-43c8-91e2-490a5d8ea403}"/>
-      <rule checkstate="0" filter="(&quot;codigo20&quot;  not in (99900,99910, 99915, 99920, 99925, 99930, 99932, 99945 , 99946, 99947, 99948, 99949, 99950, 99951, 99952, 99955, 99965, 99966, 99967, 99968, 99970, 99971, 99972, 99973, 99974, 99975, 99980 ))&#xd;&#xa;" symbol="41" key="{84f87c46-ef06-4d32-8c5d-f625f4f1cf4d}" label="calles"/>
     </rules>
     <symbols>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="0">
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="0" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v=" buffer( $geometry, 1 )&#xd;&#xa;" k="geometryModifier"/>
           <data_defined_properties>
@@ -62,8 +61,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@0@0">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@0@0" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="172,54,240,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -91,7 +90,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -132,7 +131,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -174,8 +173,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="1">
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="1" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -216,7 +215,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -257,7 +256,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v=" buffer( $geometry, 1 )&#xd;&#xa;" k="geometryModifier"/>
           <data_defined_properties>
@@ -267,8 +266,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@1@2">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@1@2" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="164,200,18,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -297,8 +296,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="10">
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="10" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v="buffer ($geometry,1)" k="geometryModifier"/>
           <data_defined_properties>
@@ -308,8 +307,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@10@0">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@10@0" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="172,54,240,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -337,7 +336,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -378,7 +377,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -419,7 +418,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -448,8 +447,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@10@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@10@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -494,7 +493,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -523,8 +522,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@10@4">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@10@4" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -575,8 +574,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="11">
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="11" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v="buffer ($geometry,1)" k="geometryModifier"/>
           <data_defined_properties>
@@ -586,8 +585,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@11@0">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@11@0" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="164,200,18,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -615,7 +614,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -656,7 +655,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -697,7 +696,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -726,8 +725,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@11@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@11@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -772,7 +771,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -801,8 +800,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@11@4">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@11@4" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -848,8 +847,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="12">
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="12" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v="buffer ($geometry,1)" k="geometryModifier"/>
           <data_defined_properties>
@@ -859,8 +858,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@12@0">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@12@0" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="207,25,119,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -888,7 +887,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -929,7 +928,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -970,7 +969,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -999,8 +998,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@12@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@12@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1040,7 +1039,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -1069,8 +1068,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@12@4">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@12@4" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1116,8 +1115,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="13">
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="13" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v="buffer ($geometry,1)" k="geometryModifier"/>
           <data_defined_properties>
@@ -1127,8 +1126,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@13@0">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@13@0" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="57,95,219,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -1156,7 +1155,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -1197,7 +1196,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -1238,7 +1237,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -1267,8 +1266,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@13@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@13@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1308,7 +1307,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -1337,8 +1336,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@13@4">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@13@4" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1384,8 +1383,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="14">
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="14" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v="buffer ($geometry,1)" k="geometryModifier"/>
           <data_defined_properties>
@@ -1395,8 +1394,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@14@0">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@14@0" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="188,171,255,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -1424,7 +1423,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -1465,7 +1464,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -1506,7 +1505,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -1535,8 +1534,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@14@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@14@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1576,7 +1575,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -1605,8 +1604,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@14@4">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@14@4" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1652,8 +1651,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="15">
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="15" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v="buffer ($geometry,1)" k="geometryModifier"/>
           <data_defined_properties>
@@ -1663,8 +1662,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@15@0">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@15@0" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="200,109,60,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -1692,7 +1691,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -1733,7 +1732,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -1774,7 +1773,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -1803,8 +1802,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@15@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@15@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1844,7 +1843,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -1873,8 +1872,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@15@4">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@15@4" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1920,8 +1919,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="16">
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="16" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v="buffer ($geometry,1)" k="geometryModifier"/>
           <data_defined_properties>
@@ -1931,8 +1930,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@16@0">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@16@0" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="240,215,85,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -1960,7 +1959,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -2001,7 +2000,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -2042,7 +2041,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -2071,8 +2070,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@16@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@16@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -2112,7 +2111,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -2141,8 +2140,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@16@4">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@16@4" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -2188,8 +2187,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="17">
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="17" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v="buffer ($geometry,1)" k="geometryModifier"/>
           <data_defined_properties>
@@ -2199,8 +2198,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@17@0">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@17@0" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="118,179,210,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -2228,7 +2227,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -2269,7 +2268,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -2310,7 +2309,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -2339,8 +2338,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@17@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@17@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -2380,7 +2379,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MapUnit" k="average_angle_unit"/>
@@ -2409,8 +2408,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@17@4">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@17@4" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -2456,8 +2455,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="18">
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="18" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v="buffer ($geometry,1)" k="geometryModifier"/>
           <data_defined_properties>
@@ -2467,8 +2466,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@18@0">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@18@0" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="217,76,208,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -2496,7 +2495,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -2537,7 +2536,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -2578,7 +2577,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -2607,8 +2606,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@18@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@18@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -2648,7 +2647,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -2677,8 +2676,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@18@4">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@18@4" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -2724,8 +2723,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="19">
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="19" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v="buffer ($geometry,1)" k="geometryModifier"/>
           <data_defined_properties>
@@ -2735,8 +2734,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@19@0">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@19@0" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="118,228,171,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -2764,7 +2763,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -2805,7 +2804,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -2846,7 +2845,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -2875,8 +2874,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@19@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@19@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -2916,7 +2915,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -2945,8 +2944,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@19@4">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@19@4" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -2992,8 +2991,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="2">
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="2" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -3034,7 +3033,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -3075,7 +3074,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v=" buffer( $geometry, 1 )&#xd;&#xa;" k="geometryModifier"/>
           <data_defined_properties>
@@ -3085,8 +3084,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@2@2">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@2@2" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="207,25,119,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -3115,8 +3114,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="20">
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="20" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v="buffer ($geometry, 1)" k="geometryModifier"/>
           <data_defined_properties>
@@ -3126,8 +3125,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@20@0">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@20@0" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="172,54,240,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -3155,7 +3154,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -3191,7 +3190,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -3227,7 +3226,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -3261,8 +3260,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@20@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@20@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -3297,7 +3296,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -3326,8 +3325,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@20@4">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@20@4" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -3363,8 +3362,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="21">
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="21" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v="buffer ($geometry, 1)" k="geometryModifier"/>
           <data_defined_properties>
@@ -3374,8 +3373,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@21@0">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@21@0" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="164,200,18,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -3403,7 +3402,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -3439,7 +3438,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -3475,7 +3474,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -3509,8 +3508,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@21@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@21@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -3545,7 +3544,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -3574,8 +3573,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@21@4">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@21@4" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -3611,8 +3610,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="22">
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="22" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v="buffer ($geometry, 1)" k="geometryModifier"/>
           <data_defined_properties>
@@ -3622,8 +3621,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@22@0">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@22@0" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="207,25,119,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -3651,7 +3650,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -3687,7 +3686,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -3723,7 +3722,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -3752,8 +3751,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@22@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@22@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -3793,7 +3792,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -3822,8 +3821,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@22@4">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@22@4" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -3859,8 +3858,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="23">
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="23" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v="buffer ($geometry, 1)" k="geometryModifier"/>
           <data_defined_properties>
@@ -3870,8 +3869,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@23@0">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@23@0" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="57,95,219,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -3899,7 +3898,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -3935,7 +3934,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -3971,7 +3970,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -4000,8 +3999,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@23@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@23@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -4036,7 +4035,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -4065,8 +4064,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@23@4">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@23@4" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -4102,8 +4101,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="24">
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="24" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v="buffer ($geometry, 1)" k="geometryModifier"/>
           <data_defined_properties>
@@ -4113,8 +4112,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@24@0">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@24@0" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="188,171,255,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -4142,7 +4141,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -4178,7 +4177,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -4214,7 +4213,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -4243,8 +4242,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@24@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@24@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -4279,7 +4278,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -4308,8 +4307,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@24@4">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@24@4" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -4345,8 +4344,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="25">
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="25" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v="buffer ($geometry, 1)" k="geometryModifier"/>
           <data_defined_properties>
@@ -4356,8 +4355,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@25@0">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@25@0" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="200,109,60,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -4385,7 +4384,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -4421,7 +4420,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -4457,7 +4456,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -4486,8 +4485,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@25@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@25@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -4522,7 +4521,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -4551,8 +4550,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@25@4">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@25@4" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -4588,8 +4587,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="26">
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="26" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v="buffer ($geometry, 1)" k="geometryModifier"/>
           <data_defined_properties>
@@ -4599,8 +4598,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@26@0">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@26@0" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="240,215,85,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -4628,7 +4627,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -4664,7 +4663,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -4700,7 +4699,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -4729,8 +4728,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@26@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@26@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -4765,7 +4764,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -4794,8 +4793,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@26@4">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@26@4" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -4831,8 +4830,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="27">
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="27" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v="buffer ($geometry, 1)" k="geometryModifier"/>
           <data_defined_properties>
@@ -4842,8 +4841,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@27@0">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@27@0" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="118,179,210,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -4871,7 +4870,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -4907,7 +4906,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -4943,7 +4942,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -4972,8 +4971,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@27@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@27@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -5008,7 +5007,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -5037,8 +5036,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@27@4">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@27@4" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -5074,8 +5073,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="28">
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="28" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v="buffer ($geometry, 1)" k="geometryModifier"/>
           <data_defined_properties>
@@ -5085,8 +5084,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@28@0">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@28@0" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="217,76,208,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -5114,7 +5113,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -5150,7 +5149,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -5186,7 +5185,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -5215,8 +5214,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@28@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@28@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -5251,7 +5250,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -5280,8 +5279,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@28@4">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@28@4" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -5317,8 +5316,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="29">
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="29" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v="buffer ($geometry, 1)" k="geometryModifier"/>
           <data_defined_properties>
@@ -5328,8 +5327,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@29@0">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@29@0" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="118,228,171,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -5357,7 +5356,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -5393,7 +5392,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -5429,7 +5428,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -5458,8 +5457,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@29@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@29@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -5494,7 +5493,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -5523,8 +5522,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@29@4">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@29@4" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -5560,8 +5559,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="0.9" type="line" name="3">
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="0.9" name="3" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -5602,7 +5601,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -5643,7 +5642,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v=" buffer( $geometry, 1 )&#xd;&#xa;" k="geometryModifier"/>
           <data_defined_properties>
@@ -5653,8 +5652,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@3@2">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@3@2" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="57,95,219,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -5683,8 +5682,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="30">
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="30" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -5725,7 +5724,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -5766,7 +5765,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -5795,8 +5794,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@30@2">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@30@2" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,255,255,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -5831,7 +5830,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -5860,8 +5859,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@30@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@30@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,255,255,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -5897,8 +5896,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="31">
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="31" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -5939,7 +5938,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -5980,7 +5979,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -6009,8 +6008,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@31@2">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@31@2" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="0,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -6045,7 +6044,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -6074,8 +6073,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@31@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@31@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="0,0,0,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -6111,8 +6110,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="32">
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="32" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -6153,7 +6152,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -6194,7 +6193,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -6223,8 +6222,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@32@2">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@32@2" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,255,255,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -6259,7 +6258,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -6288,8 +6287,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@32@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@32@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,255,255,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -6325,8 +6324,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="33">
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="33" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -6367,7 +6366,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -6408,7 +6407,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -6437,8 +6436,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@33@2">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@33@2" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,255,255,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -6473,7 +6472,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -6502,8 +6501,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@33@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@33@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,255,255,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -6539,8 +6538,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="34">
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="34" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -6581,7 +6580,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -6622,7 +6621,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -6651,8 +6650,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@34@2">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@34@2" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,255,255,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -6687,7 +6686,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -6716,8 +6715,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@34@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@34@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,255,255,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -6753,8 +6752,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="35">
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="35" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -6795,7 +6794,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -6836,7 +6835,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -6865,8 +6864,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@35@2">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@35@2" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,255,255,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -6901,7 +6900,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -6930,8 +6929,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@35@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@35@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,255,255,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -6967,8 +6966,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="36">
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="36" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -7009,7 +7008,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -7050,7 +7049,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -7079,8 +7078,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@36@2">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@36@2" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,255,255,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -7115,7 +7114,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -7144,8 +7143,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@36@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@36@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,255,255,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -7181,8 +7180,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="37">
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="37" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -7223,7 +7222,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -7264,7 +7263,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -7293,8 +7292,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@37@2">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@37@2" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,255,255,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -7329,7 +7328,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -7358,8 +7357,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@37@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@37@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,255,255,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -7395,8 +7394,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="38">
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="38" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -7437,7 +7436,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -7478,7 +7477,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -7507,8 +7506,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@38@2">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@38@2" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,255,255,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -7543,7 +7542,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -7572,8 +7571,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@38@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@38@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,255,255,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -7609,8 +7608,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="39">
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="39" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -7651,7 +7650,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -7692,7 +7691,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -7721,8 +7720,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@39@2">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@39@2" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,255,255,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -7757,7 +7756,7 @@
             </layer>
           </symbol>
         </layer>
-        <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="MarkerLine">
           <prop v="4" k="average_angle_length"/>
           <prop v="3x:0,0,0,0,0,0" k="average_angle_map_unit_scale"/>
           <prop v="MM" k="average_angle_unit"/>
@@ -7786,8 +7785,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="marker" name="@39@3">
-            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+          <symbol type="marker" alpha="1" name="@39@3" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="255,255,255,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -7823,8 +7822,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="4">
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="4" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -7865,7 +7864,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -7906,7 +7905,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v=" buffer( $geometry, 1 )&#xd;&#xa;" k="geometryModifier"/>
           <data_defined_properties>
@@ -7916,8 +7915,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@4@2">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@4@2" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="188,171,255,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -7946,8 +7945,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="40">
-        <layer class="SimpleLine" enabled="1" locked="0" pass="2">
+      <symbol type="line" alpha="1" name="40" clip_to_extent="1" force_rhr="0">
+        <layer pass="2" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -7973,92 +7972,8 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="41">
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
-          <prop v="flat" k="capstyle"/>
-          <prop v="5;2" k="customdash"/>
-          <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
-          <prop v="MapUnit" k="customdash_unit"/>
-          <prop v="0" k="draw_inside_polygon"/>
-          <prop v="bevel" k="joinstyle"/>
-          <prop v="13,0,0,255" k="line_color"/>
-          <prop v="solid" k="line_style"/>
-          <prop v="0.6" k="line_width"/>
-          <prop v="MapUnit" k="line_width_unit"/>
-          <prop v="-5" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MapUnit" k="offset_unit"/>
-          <prop v="0" k="ring_filter"/>
-          <prop v="0" k="use_custom_dash"/>
-          <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option value="" type="QString" name="name"/>
-              <Option type="Map" name="properties">
-                <Option type="Map" name="offset">
-                  <Option value="false" type="bool" name="active"/>
-                  <Option value="1" type="int" name="type"/>
-                  <Option value="" type="QString" name="val"/>
-                </Option>
-                <Option type="Map" name="outlineColor">
-                  <Option value="false" type="bool" name="active"/>
-                  <Option value="" type="QString" name="expression"/>
-                  <Option value="3" type="int" name="type"/>
-                </Option>
-                <Option type="Map" name="outlineWidth">
-                  <Option value="false" type="bool" name="active"/>
-                  <Option value="1" type="int" name="type"/>
-                  <Option value="" type="QString" name="val"/>
-                </Option>
-              </Option>
-              <Option value="collection" type="QString" name="type"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
-          <prop v="flat" k="capstyle"/>
-          <prop v="5;2" k="customdash"/>
-          <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
-          <prop v="MapUnit" k="customdash_unit"/>
-          <prop v="0" k="draw_inside_polygon"/>
-          <prop v="bevel" k="joinstyle"/>
-          <prop v="13,0,0,255" k="line_color"/>
-          <prop v="solid" k="line_style"/>
-          <prop v="0.6" k="line_width"/>
-          <prop v="MapUnit" k="line_width_unit"/>
-          <prop v="5" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MapUnit" k="offset_unit"/>
-          <prop v="0" k="ring_filter"/>
-          <prop v="0" k="use_custom_dash"/>
-          <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option value="" type="QString" name="name"/>
-              <Option type="Map" name="properties">
-                <Option type="Map" name="offset">
-                  <Option value="false" type="bool" name="active"/>
-                  <Option value="1" type="int" name="type"/>
-                  <Option value="" type="QString" name="val"/>
-                </Option>
-                <Option type="Map" name="outlineColor">
-                  <Option value="false" type="bool" name="active"/>
-                  <Option value="" type="QString" name="expression"/>
-                  <Option value="3" type="int" name="type"/>
-                </Option>
-                <Option type="Map" name="outlineWidth">
-                  <Option value="false" type="bool" name="active"/>
-                  <Option value="1" type="int" name="type"/>
-                  <Option value="" type="QString" name="val"/>
-                </Option>
-              </Option>
-              <Option value="collection" type="QString" name="type"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="5">
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="5" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -8099,7 +8014,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -8140,7 +8055,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v=" buffer( $geometry, 1 )&#xd;&#xa;" k="geometryModifier"/>
           <data_defined_properties>
@@ -8150,8 +8065,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@5@2">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@5@2" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="200,109,60,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -8180,8 +8095,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="6">
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="6" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -8222,7 +8137,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -8263,7 +8178,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v=" buffer( $geometry, 1 )&#xd;&#xa;" k="geometryModifier"/>
           <data_defined_properties>
@@ -8273,8 +8188,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@6@2">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@6@2" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="240,215,85,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -8303,8 +8218,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="7">
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="7" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -8345,7 +8260,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -8386,7 +8301,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v=" buffer( $geometry, 1 )&#xd;&#xa;" k="geometryModifier"/>
           <data_defined_properties>
@@ -8396,8 +8311,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@7@2">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@7@2" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="118,179,210,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -8426,8 +8341,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="8">
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="8" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -8468,7 +8383,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -8509,7 +8424,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v=" buffer( $geometry, 1 )&#xd;&#xa;" k="geometryModifier"/>
           <data_defined_properties>
@@ -8519,8 +8434,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@8@2">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@8@2" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="217,76,208,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -8549,8 +8464,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="line" name="9">
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+      <symbol type="line" alpha="1" name="9" clip_to_extent="1" force_rhr="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -8591,7 +8506,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="SimpleLine">
           <prop v="flat" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -8632,7 +8547,7 @@
             </Option>
           </data_defined_properties>
         </layer>
-        <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+        <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
           <prop v="Fill" k="SymbolType"/>
           <prop v=" buffer( $geometry, 1 )&#xd;&#xa;" k="geometryModifier"/>
           <data_defined_properties>
@@ -8642,8 +8557,8 @@
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
-          <symbol clip_to_extent="1" force_rhr="0" alpha="1" type="fill" name="@9@2">
-            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+          <symbol type="fill" alpha="1" name="@9@2" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="118,228,171,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -8675,24 +8590,24 @@
     </symbols>
   </renderer-v2>
   <labeling type="rule-based">
-    <rules key="{667e5a7c-be45-4391-b561-dcdc6537cb65}"/>
+    <rules key="{ccec72d7-135a-45fc-b77f-fbcec0b08a70}"/>
   </labeling>
   <customproperties>
-    <property key="dualview/previewExpressions" value="nomencla"/>
-    <property key="embeddedWidgets/count" value="0"/>
+    <property value="nomencla" key="dualview/previewExpressions"/>
+    <property value="0" key="embeddedWidgets/count"/>
     <property key="variableNames"/>
     <property key="variableValues"/>
   </customproperties>
   <blendMode>0</blendMode>
   <featureBlendMode>0</featureBlendMode>
   <layerOpacity>1</layerOpacity>
-  <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-    <DiagramCategory backgroundColor="#ffffff" minimumSize="0" height="15" barWidth="5" sizeType="MM" enabled="0" penColor="#000000" penWidth="0" lineSizeScale="3x:0,0,0,0,0,0" opacity="1" backgroundAlpha="255" minScaleDenominator="0" scaleBasedVisibility="0" rotationOffset="270" penAlpha="255" maxScaleDenominator="1e+08" diagramOrientation="Up" scaleDependency="Area" sizeScale="3x:0,0,0,0,0,0" lineSizeType="MM" width="15" labelPlacementMethod="XHeight">
+  <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+    <DiagramCategory opacity="1" minimumSize="0" maxScaleDenominator="1e+08" width="15" penColor="#000000" labelPlacementMethod="XHeight" sizeScale="3x:0,0,0,0,0,0" scaleDependency="Area" backgroundColor="#ffffff" enabled="0" backgroundAlpha="255" rotationOffset="270" penWidth="0" lineSizeScale="3x:0,0,0,0,0,0" lineSizeType="MM" penAlpha="255" minScaleDenominator="0" diagramOrientation="Up" scaleBasedVisibility="0" barWidth="5" sizeType="MM" height="15">
       <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
       <attribute field="" label="" color="#000000"/>
     </DiagramCategory>
   </SingleCategoryDiagramRenderer>
-  <DiagramLayerSettings obstacle="0" dist="0" showAll="1" linePlacementFlags="18" placement="2" zIndex="0" priority="0">
+  <DiagramLayerSettings linePlacementFlags="18" priority="0" dist="0" placement="2" obstacle="0" zIndex="0" showAll="1">
     <properties>
       <Option type="Map">
         <Option value="" type="QString" name="name"/>
@@ -8909,69 +8824,6 @@
         </config>
       </editWidget>
     </field>
-    <field name="linmmuv">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field name="ladoitxt">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field name="ladodtxt">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field name="codi20txt">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field name="error">
-      <editWidget type="Range">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field name="cero">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field name="linki">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field name="linkd">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field name="nomen_nom">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
     <field name="segi">
       <editWidget type="Range">
         <config>
@@ -8988,132 +8840,105 @@
     </field>
   </fieldConfiguration>
   <aliases>
-    <alias field="ogc_fid" name="" index="0"/>
-    <alias field="userid" name="" index="1"/>
-    <alias field="fnode_" name="" index="2"/>
-    <alias field="tnode_" name="" index="3"/>
-    <alias field="lpoly_" name="" index="4"/>
-    <alias field="rpoly_" name="" index="5"/>
-    <alias field="length" name="" index="6"/>
-    <alias field="e0359_" name="" index="7"/>
-    <alias field="e0359_id" name="" index="8"/>
-    <alias field="codigo10" name="" index="9"/>
-    <alias field="nomencla" name="" index="10"/>
-    <alias field="codigo20" name="" index="11"/>
-    <alias field="ancho" name="" index="12"/>
-    <alias field="anchomed" name="" index="13"/>
-    <alias field="tipo" name="" index="14"/>
-    <alias field="nombre" name="" index="15"/>
-    <alias field="ladoi" name="" index="16"/>
-    <alias field="ladod" name="" index="17"/>
-    <alias field="desdei" name="" index="18"/>
-    <alias field="desded" name="" index="19"/>
-    <alias field="hastai" name="" index="20"/>
-    <alias field="hastad" name="" index="21"/>
-    <alias field="mzai" name="" index="22"/>
-    <alias field="mzad" name="" index="23"/>
-    <alias field="codloc20" name="" index="24"/>
-    <alias field="nomencla10" name="" index="25"/>
-    <alias field="nomenclai" name="" index="26"/>
-    <alias field="nomenclad" name="" index="27"/>
-    <alias field="codinomb" name="" index="28"/>
-    <alias field="linmmuv" name="" index="29"/>
-    <alias field="ladoitxt" name="" index="30"/>
-    <alias field="ladodtxt" name="" index="31"/>
-    <alias field="codi20txt" name="" index="32"/>
-    <alias field="error" name="" index="33"/>
-    <alias field="cero" name="" index="34"/>
-    <alias field="linki" name="" index="35"/>
-    <alias field="linkd" name="" index="36"/>
-    <alias field="nomen_nom" name="" index="37"/>
-    <alias field="segi" name="" index="38"/>
-    <alias field="segd" name="" index="39"/>
+    <alias index="0" field="ogc_fid" name=""/>
+    <alias index="1" field="userid" name=""/>
+    <alias index="2" field="fnode_" name=""/>
+    <alias index="3" field="tnode_" name=""/>
+    <alias index="4" field="lpoly_" name=""/>
+    <alias index="5" field="rpoly_" name=""/>
+    <alias index="6" field="length" name=""/>
+    <alias index="7" field="e0359_" name=""/>
+    <alias index="8" field="e0359_id" name=""/>
+    <alias index="9" field="codigo10" name=""/>
+    <alias index="10" field="nomencla" name=""/>
+    <alias index="11" field="codigo20" name=""/>
+    <alias index="12" field="ancho" name=""/>
+    <alias index="13" field="anchomed" name=""/>
+    <alias index="14" field="tipo" name=""/>
+    <alias index="15" field="nombre" name=""/>
+    <alias index="16" field="ladoi" name=""/>
+    <alias index="17" field="ladod" name=""/>
+    <alias index="18" field="desdei" name=""/>
+    <alias index="19" field="desded" name=""/>
+    <alias index="20" field="hastai" name=""/>
+    <alias index="21" field="hastad" name=""/>
+    <alias index="22" field="mzai" name=""/>
+    <alias index="23" field="mzad" name=""/>
+    <alias index="24" field="codloc20" name=""/>
+    <alias index="25" field="nomencla10" name=""/>
+    <alias index="26" field="nomenclai" name=""/>
+    <alias index="27" field="nomenclad" name=""/>
+    <alias index="28" field="codinomb" name=""/>
+    <alias index="29" field="segi" name=""/>
+    <alias index="30" field="segd" name=""/>
   </aliases>
   <excludeAttributesWMS/>
   <excludeAttributesWFS/>
   <defaults>
-    <default expression="" applyOnUpdate="0" field="ogc_fid"/>
-    <default expression="" applyOnUpdate="0" field="userid"/>
-    <default expression="" applyOnUpdate="0" field="fnode_"/>
-    <default expression="" applyOnUpdate="0" field="tnode_"/>
-    <default expression="" applyOnUpdate="0" field="lpoly_"/>
-    <default expression="" applyOnUpdate="0" field="rpoly_"/>
-    <default expression="" applyOnUpdate="0" field="length"/>
-    <default expression="" applyOnUpdate="0" field="e0359_"/>
-    <default expression="" applyOnUpdate="0" field="e0359_id"/>
-    <default expression="" applyOnUpdate="0" field="codigo10"/>
-    <default expression="" applyOnUpdate="0" field="nomencla"/>
-    <default expression="" applyOnUpdate="0" field="codigo20"/>
-    <default expression="" applyOnUpdate="0" field="ancho"/>
-    <default expression="" applyOnUpdate="0" field="anchomed"/>
-    <default expression="" applyOnUpdate="0" field="tipo"/>
-    <default expression="" applyOnUpdate="0" field="nombre"/>
-    <default expression="" applyOnUpdate="0" field="ladoi"/>
-    <default expression="" applyOnUpdate="0" field="ladod"/>
-    <default expression="" applyOnUpdate="0" field="desdei"/>
-    <default expression="" applyOnUpdate="0" field="desded"/>
-    <default expression="" applyOnUpdate="0" field="hastai"/>
-    <default expression="" applyOnUpdate="0" field="hastad"/>
-    <default expression="" applyOnUpdate="0" field="mzai"/>
-    <default expression="" applyOnUpdate="0" field="mzad"/>
-    <default expression="" applyOnUpdate="0" field="codloc20"/>
-    <default expression="" applyOnUpdate="0" field="nomencla10"/>
-    <default expression="" applyOnUpdate="0" field="nomenclai"/>
-    <default expression="" applyOnUpdate="0" field="nomenclad"/>
-    <default expression="" applyOnUpdate="0" field="codinomb"/>
-    <default expression="" applyOnUpdate="0" field="linmmuv"/>
-    <default expression="" applyOnUpdate="0" field="ladoitxt"/>
-    <default expression="" applyOnUpdate="0" field="ladodtxt"/>
-    <default expression="" applyOnUpdate="0" field="codi20txt"/>
-    <default expression="" applyOnUpdate="0" field="error"/>
-    <default expression="" applyOnUpdate="0" field="cero"/>
-    <default expression="" applyOnUpdate="0" field="linki"/>
-    <default expression="" applyOnUpdate="0" field="linkd"/>
-    <default expression="" applyOnUpdate="0" field="nomen_nom"/>
-    <default expression="" applyOnUpdate="0" field="segi"/>
-    <default expression="" applyOnUpdate="0" field="segd"/>
+    <default field="ogc_fid" expression="" applyOnUpdate="0"/>
+    <default field="userid" expression="" applyOnUpdate="0"/>
+    <default field="fnode_" expression="" applyOnUpdate="0"/>
+    <default field="tnode_" expression="" applyOnUpdate="0"/>
+    <default field="lpoly_" expression="" applyOnUpdate="0"/>
+    <default field="rpoly_" expression="" applyOnUpdate="0"/>
+    <default field="length" expression="" applyOnUpdate="0"/>
+    <default field="e0359_" expression="" applyOnUpdate="0"/>
+    <default field="e0359_id" expression="" applyOnUpdate="0"/>
+    <default field="codigo10" expression="" applyOnUpdate="0"/>
+    <default field="nomencla" expression="" applyOnUpdate="0"/>
+    <default field="codigo20" expression="" applyOnUpdate="0"/>
+    <default field="ancho" expression="" applyOnUpdate="0"/>
+    <default field="anchomed" expression="" applyOnUpdate="0"/>
+    <default field="tipo" expression="" applyOnUpdate="0"/>
+    <default field="nombre" expression="" applyOnUpdate="0"/>
+    <default field="ladoi" expression="" applyOnUpdate="0"/>
+    <default field="ladod" expression="" applyOnUpdate="0"/>
+    <default field="desdei" expression="" applyOnUpdate="0"/>
+    <default field="desded" expression="" applyOnUpdate="0"/>
+    <default field="hastai" expression="" applyOnUpdate="0"/>
+    <default field="hastad" expression="" applyOnUpdate="0"/>
+    <default field="mzai" expression="" applyOnUpdate="0"/>
+    <default field="mzad" expression="" applyOnUpdate="0"/>
+    <default field="codloc20" expression="" applyOnUpdate="0"/>
+    <default field="nomencla10" expression="" applyOnUpdate="0"/>
+    <default field="nomenclai" expression="" applyOnUpdate="0"/>
+    <default field="nomenclad" expression="" applyOnUpdate="0"/>
+    <default field="codinomb" expression="" applyOnUpdate="0"/>
+    <default field="segi" expression="" applyOnUpdate="0"/>
+    <default field="segd" expression="" applyOnUpdate="0"/>
   </defaults>
   <constraints>
-    <constraint exp_strength="0" constraints="3" notnull_strength="1" field="ogc_fid" unique_strength="1"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="userid" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="fnode_" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="tnode_" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="lpoly_" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="rpoly_" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="length" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="e0359_" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="e0359_id" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="codigo10" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="nomencla" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="codigo20" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="ancho" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="anchomed" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="tipo" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="nombre" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="ladoi" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="ladod" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="desdei" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="desded" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="hastai" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="hastad" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="mzai" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="mzad" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="codloc20" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="nomencla10" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="nomenclai" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="nomenclad" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="codinomb" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="linmmuv" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="ladoitxt" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="ladodtxt" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="codi20txt" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="error" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="cero" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="linki" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="linkd" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="nomen_nom" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="segi" unique_strength="0"/>
-    <constraint exp_strength="0" constraints="0" notnull_strength="0" field="segd" unique_strength="0"/>
+    <constraint notnull_strength="1" unique_strength="1" field="ogc_fid" constraints="3" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="userid" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="fnode_" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="tnode_" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="lpoly_" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="rpoly_" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="length" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="e0359_" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="e0359_id" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="codigo10" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="nomencla" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="codigo20" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="ancho" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="anchomed" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="tipo" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="nombre" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="ladoi" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="ladod" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="desdei" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="desded" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="hastai" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="hastad" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="mzai" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="mzad" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="codloc20" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="nomencla10" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="nomenclai" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="nomenclad" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="codinomb" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="segi" constraints="0" exp_strength="0"/>
+    <constraint notnull_strength="0" unique_strength="0" field="segd" constraints="0" exp_strength="0"/>
   </constraints>
   <constraintExpressions>
     <constraint exp="" field="ogc_fid" desc=""/>
@@ -9145,65 +8970,47 @@
     <constraint exp="" field="nomenclai" desc=""/>
     <constraint exp="" field="nomenclad" desc=""/>
     <constraint exp="" field="codinomb" desc=""/>
-    <constraint exp="" field="linmmuv" desc=""/>
-    <constraint exp="" field="ladoitxt" desc=""/>
-    <constraint exp="" field="ladodtxt" desc=""/>
-    <constraint exp="" field="codi20txt" desc=""/>
-    <constraint exp="" field="error" desc=""/>
-    <constraint exp="" field="cero" desc=""/>
-    <constraint exp="" field="linki" desc=""/>
-    <constraint exp="" field="linkd" desc=""/>
-    <constraint exp="" field="nomen_nom" desc=""/>
     <constraint exp="" field="segi" desc=""/>
     <constraint exp="" field="segd" desc=""/>
   </constraintExpressions>
   <expressionfields/>
   <attributeactions>
-    <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+    <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
   </attributeactions>
-  <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="&quot;ogc_fid&quot;">
+  <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="&quot;ogc_fid&quot;">
     <columns>
-      <column width="-1" hidden="0" type="field" name="ogc_fid"/>
-      <column width="-1" hidden="0" type="field" name="userid"/>
-      <column width="-1" hidden="0" type="field" name="fnode_"/>
-      <column width="-1" hidden="0" type="field" name="tnode_"/>
-      <column width="-1" hidden="0" type="field" name="lpoly_"/>
-      <column width="-1" hidden="0" type="field" name="rpoly_"/>
-      <column width="-1" hidden="0" type="field" name="length"/>
-      <column width="-1" hidden="0" type="field" name="codigo10"/>
-      <column width="-1" hidden="0" type="field" name="nomencla"/>
-      <column width="-1" hidden="0" type="field" name="codigo20"/>
-      <column width="-1" hidden="0" type="field" name="ancho"/>
-      <column width="-1" hidden="0" type="field" name="anchomed"/>
-      <column width="-1" hidden="0" type="field" name="tipo"/>
-      <column width="-1" hidden="0" type="field" name="nombre"/>
-      <column width="-1" hidden="0" type="field" name="ladoi"/>
-      <column width="-1" hidden="0" type="field" name="ladod"/>
-      <column width="-1" hidden="0" type="field" name="desdei"/>
-      <column width="-1" hidden="0" type="field" name="desded"/>
-      <column width="-1" hidden="0" type="field" name="hastai"/>
-      <column width="-1" hidden="0" type="field" name="hastad"/>
-      <column width="-1" hidden="0" type="field" name="mzai"/>
-      <column width="-1" hidden="0" type="field" name="mzad"/>
-      <column width="-1" hidden="0" type="field" name="codloc20"/>
-      <column width="-1" hidden="0" type="field" name="nomencla10"/>
-      <column width="-1" hidden="0" type="field" name="nomenclai"/>
-      <column width="-1" hidden="0" type="field" name="nomenclad"/>
-      <column width="323" hidden="0" type="field" name="codinomb"/>
-      <column width="-1" hidden="0" type="field" name="segi"/>
-      <column width="-1" hidden="0" type="field" name="segd"/>
-      <column width="-1" hidden="1" type="actions"/>
-      <column width="-1" hidden="0" type="field" name="e0359_"/>
-      <column width="-1" hidden="0" type="field" name="e0359_id"/>
-      <column width="-1" hidden="0" type="field" name="linmmuv"/>
-      <column width="-1" hidden="0" type="field" name="ladoitxt"/>
-      <column width="-1" hidden="0" type="field" name="ladodtxt"/>
-      <column width="-1" hidden="0" type="field" name="codi20txt"/>
-      <column width="-1" hidden="0" type="field" name="error"/>
-      <column width="-1" hidden="0" type="field" name="cero"/>
-      <column width="-1" hidden="0" type="field" name="linki"/>
-      <column width="-1" hidden="0" type="field" name="linkd"/>
-      <column width="-1" hidden="0" type="field" name="nomen_nom"/>
+      <column type="field" hidden="0" name="ogc_fid" width="-1"/>
+      <column type="field" hidden="0" name="userid" width="-1"/>
+      <column type="field" hidden="0" name="fnode_" width="-1"/>
+      <column type="field" hidden="0" name="tnode_" width="-1"/>
+      <column type="field" hidden="0" name="lpoly_" width="-1"/>
+      <column type="field" hidden="0" name="rpoly_" width="-1"/>
+      <column type="field" hidden="0" name="length" width="-1"/>
+      <column type="field" hidden="0" name="codigo10" width="-1"/>
+      <column type="field" hidden="0" name="nomencla" width="-1"/>
+      <column type="field" hidden="0" name="codigo20" width="-1"/>
+      <column type="field" hidden="0" name="ancho" width="-1"/>
+      <column type="field" hidden="0" name="anchomed" width="-1"/>
+      <column type="field" hidden="0" name="tipo" width="-1"/>
+      <column type="field" hidden="0" name="nombre" width="-1"/>
+      <column type="field" hidden="0" name="ladoi" width="-1"/>
+      <column type="field" hidden="0" name="ladod" width="-1"/>
+      <column type="field" hidden="0" name="desdei" width="-1"/>
+      <column type="field" hidden="0" name="desded" width="-1"/>
+      <column type="field" hidden="0" name="hastai" width="-1"/>
+      <column type="field" hidden="0" name="hastad" width="-1"/>
+      <column type="field" hidden="0" name="mzai" width="-1"/>
+      <column type="field" hidden="0" name="mzad" width="-1"/>
+      <column type="field" hidden="0" name="codloc20" width="-1"/>
+      <column type="field" hidden="0" name="nomencla10" width="-1"/>
+      <column type="field" hidden="0" name="nomenclai" width="-1"/>
+      <column type="field" hidden="0" name="nomenclad" width="-1"/>
+      <column type="field" hidden="0" name="codinomb" width="323"/>
+      <column type="field" hidden="0" name="segi" width="-1"/>
+      <column type="field" hidden="0" name="segd" width="-1"/>
+      <column type="actions" hidden="1" width="-1"/>
+      <column type="field" hidden="0" name="e0359_" width="-1"/>
+      <column type="field" hidden="0" name="e0359_id" width="-1"/>
     </columns>
   </attributetableconfig>
   <conditionalstyles>
@@ -9283,55 +9090,55 @@ def my_form_open(dialog, layer, feature):
     <field editable="1" name="userid"/>
   </editable>
   <labelOnTop>
-    <field labelOnTop="0" name="ancho"/>
-    <field labelOnTop="0" name="anchomed"/>
-    <field labelOnTop="0" name="cero"/>
-    <field labelOnTop="0" name="codi20txt"/>
-    <field labelOnTop="0" name="codigo10"/>
-    <field labelOnTop="0" name="codigo20"/>
-    <field labelOnTop="0" name="codinomb"/>
-    <field labelOnTop="0" name="codloc20"/>
-    <field labelOnTop="0" name="concad"/>
-    <field labelOnTop="0" name="concai"/>
-    <field labelOnTop="0" name="conteod"/>
-    <field labelOnTop="0" name="conteoi"/>
-    <field labelOnTop="0" name="desded"/>
-    <field labelOnTop="0" name="desdei"/>
-    <field labelOnTop="0" name="e0359_"/>
-    <field labelOnTop="0" name="e0359_id"/>
-    <field labelOnTop="0" name="e0531_"/>
-    <field labelOnTop="0" name="e0531_id"/>
-    <field labelOnTop="0" name="error"/>
-    <field labelOnTop="0" name="fnode_"/>
-    <field labelOnTop="0" name="hastad"/>
-    <field labelOnTop="0" name="hastai"/>
-    <field labelOnTop="0" name="ladod"/>
-    <field labelOnTop="0" name="ladodtxt"/>
-    <field labelOnTop="0" name="ladoi"/>
-    <field labelOnTop="0" name="ladoitxt"/>
-    <field labelOnTop="0" name="length"/>
-    <field labelOnTop="0" name="linkd"/>
-    <field labelOnTop="0" name="linki"/>
-    <field labelOnTop="0" name="linmmuv"/>
-    <field labelOnTop="0" name="lpoly_"/>
-    <field labelOnTop="0" name="mzad"/>
-    <field labelOnTop="0" name="mzai"/>
-    <field labelOnTop="0" name="nombre"/>
-    <field labelOnTop="0" name="nomen_nom"/>
-    <field labelOnTop="0" name="nomencla"/>
-    <field labelOnTop="0" name="nomencla10"/>
-    <field labelOnTop="0" name="nomenclad"/>
-    <field labelOnTop="0" name="nomenclai"/>
-    <field labelOnTop="0" name="ogc_fid"/>
-    <field labelOnTop="0" name="rpoly_"/>
-    <field labelOnTop="0" name="segd"/>
-    <field labelOnTop="0" name="segi"/>
-    <field labelOnTop="0" name="tipo"/>
-    <field labelOnTop="0" name="tnode_"/>
-    <field labelOnTop="0" name="userid"/>
+    <field name="ancho" labelOnTop="0"/>
+    <field name="anchomed" labelOnTop="0"/>
+    <field name="cero" labelOnTop="0"/>
+    <field name="codi20txt" labelOnTop="0"/>
+    <field name="codigo10" labelOnTop="0"/>
+    <field name="codigo20" labelOnTop="0"/>
+    <field name="codinomb" labelOnTop="0"/>
+    <field name="codloc20" labelOnTop="0"/>
+    <field name="concad" labelOnTop="0"/>
+    <field name="concai" labelOnTop="0"/>
+    <field name="conteod" labelOnTop="0"/>
+    <field name="conteoi" labelOnTop="0"/>
+    <field name="desded" labelOnTop="0"/>
+    <field name="desdei" labelOnTop="0"/>
+    <field name="e0359_" labelOnTop="0"/>
+    <field name="e0359_id" labelOnTop="0"/>
+    <field name="e0531_" labelOnTop="0"/>
+    <field name="e0531_id" labelOnTop="0"/>
+    <field name="error" labelOnTop="0"/>
+    <field name="fnode_" labelOnTop="0"/>
+    <field name="hastad" labelOnTop="0"/>
+    <field name="hastai" labelOnTop="0"/>
+    <field name="ladod" labelOnTop="0"/>
+    <field name="ladodtxt" labelOnTop="0"/>
+    <field name="ladoi" labelOnTop="0"/>
+    <field name="ladoitxt" labelOnTop="0"/>
+    <field name="length" labelOnTop="0"/>
+    <field name="linkd" labelOnTop="0"/>
+    <field name="linki" labelOnTop="0"/>
+    <field name="linmmuv" labelOnTop="0"/>
+    <field name="lpoly_" labelOnTop="0"/>
+    <field name="mzad" labelOnTop="0"/>
+    <field name="mzai" labelOnTop="0"/>
+    <field name="nombre" labelOnTop="0"/>
+    <field name="nomen_nom" labelOnTop="0"/>
+    <field name="nomencla" labelOnTop="0"/>
+    <field name="nomencla10" labelOnTop="0"/>
+    <field name="nomenclad" labelOnTop="0"/>
+    <field name="nomenclai" labelOnTop="0"/>
+    <field name="ogc_fid" labelOnTop="0"/>
+    <field name="rpoly_" labelOnTop="0"/>
+    <field name="segd" labelOnTop="0"/>
+    <field name="segi" labelOnTop="0"/>
+    <field name="tipo" labelOnTop="0"/>
+    <field name="tnode_" labelOnTop="0"/>
+    <field name="userid" labelOnTop="0"/>
   </labelOnTop>
   <widgets/>
-  <previewExpression>nomencla</previewExpression>
+  <previewExpression>"nomencla"</previewExpression>
   <mapTip></mapTip>
   <layerGeometryType>1</layerGeometryType>
 </qgis>
