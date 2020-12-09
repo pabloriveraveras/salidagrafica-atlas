@@ -1,6 +1,6 @@
-#Segmentador Automático
+# Segmentador Automático
 
-Requerimos
+### Requerimos
 
 1.  Cover e00 de cada localidad a segmentar y la C1.
 
@@ -10,11 +10,11 @@ Requerimos
 
 4.  Muchas buena onda : D
 
-Pasos para segmentar, se definen 2 etapas claves
+### Pasos para segmentar, se definen 2 etapas claves
 
-Etapa 1- Segmentar
+* Etapa 1- Segmentar
 
--   Entra a link
+Entra a link
     [*www.blablablabla.gob.ar*](http://www.blablablabla.gob.ar/) para
     segmentar una localidad, el proceso de segmentación se realiza con
     una cobertura a por vez, se necesita paciencia y concentración para
@@ -22,6 +22,6 @@ Etapa 1- Segmentar
 
 [*http://*](http://)
 
-Etapa 2 – Salida Grafica
+* Etapa 2 – Salida Grafica
 
 TODO: Agregar link al otro documento/guia
