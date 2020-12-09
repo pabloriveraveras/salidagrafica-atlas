@@ -6,23 +6,24 @@ from qgis.PyQt.QtXml import QDomDocument
 #####################################Conexion PostGIS##############################################
 from qgis.utils import iface
 #####################################Conexion existente en el admnistrador de BD##############################################
-##########Conexion desde BD a Postgis
-qs = QSettings()
-dbHost = qs.value("PostgreSQL/connections/informatica/host")
-dbPort = qs.value("PostgreSQL/connections/informatica/port")
-dbName = qs.value("PostgreSQL/connections/informatica/database")
+##########Conexion desde BD existente a Postgis
+#qs = QSettings()
+#dbHost = qs.value("PostgreSQL/connections/informatica/host")
+#dbPort = qs.value("PostgreSQL/connections/informatica/port")
+#dbName = qs.value("PostgreSQL/connections/informatica/database")
+#dbUsr = QInputDialog.getText(None, 'usuario', 'Introduce el nombre de usuario de la base de datos')
+#dbPwd = QInputDialog.getText(None, 'contraseña', 'Introduce la contraseña')
+#uri = QgsDataSourceUri()
+#uri.setConnection(dbHost,dbPort,dbName,dbUsr[0],dbPwd[0])
 
-############Pedir al usuario cargar los campos de  usuario y contraseña
+############################## Conexion BD informatica##########################################
+
+qs = QSettings()
 dbUsr = QInputDialog.getText(None, 'usuario', 'Introduce el nombre de usuario de la base de datos')
 dbPwd = QInputDialog.getText(None, 'contraseña', 'Introduce la contraseña')
-
-#####################################Conexion PostGIS##############################################
-
-# introducimos nombre del servidor, puerto, nombre de la base de datos, usuario y contraseña
 uri = QgsDataSourceUri()
-uri.setConnection(dbHost,dbPort,dbName,dbUsr[0],dbPwd[0])
+uri.setConnection("10.70.80.62","5432","DEVSEG",dbUsr[0],dbPwd[0])
 
-##############################Verificar Usuuario y Contraseña##########################################
 origen = QInputDialog.getText(None, 'origen', 'Introduce la ruta de acceso')
 aglomerado = QInputDialog.getText(None, 'aglomerado', 'Introduce el nombre completo del aglomerado')
 
