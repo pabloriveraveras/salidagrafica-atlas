@@ -7,7 +7,7 @@ name=Censo Segmento
 qgisMinimumVersion=3.0
 description=Censo Segmento
 version=0.2
-author=Manuel Retamozo,Maximiliano Monti
+author=Manuel Retamozo,Veronica Heredia,Maximiliano Monti
 email=mretamozo.at.indec.gob.ar,renzomiguelmonti@gmail.com
 
 about=Este plugin es una interfaz para la generación de las salidas gráficas
