@@ -489,6 +489,18 @@ class CensoSegmento:
         layer.triggerRepaint()
 
 
+        ############################# Agrego la capa  atlas segmento########################### 
+        sql = "((((SELECT row_number() over () AS _uid_,* FROM (SELECT row_number () over () id, prov,depto,loc,frac,radio,seg, geom  FROM (SELECT prov,depto,loc,frac,radio,seg,(st_union(geom )) geom  FROM (SELECT  substring(mza,1,2) prov, substring(mza, 3,3)  depto, substring(mza,6,3) loc, substring(mza,9,2) frac, substring(mza,11,2) radio,  seg,  geom   FROM (SELECT   mzai mza, ladoi lado, segi seg , wkb_geometry geom FROM " +  aglomerado[0] + ".arc" + " where segi is not null UNION  SELECT mzad mza, ladod lado, segd seg, wkb_geometry geom  FROM " +   aglomerado[0] + ".arc" + " where segd is not null ) foo ) foo2  group by prov,depto,loc,frac,radio,seg  ) foo3 ) AS _subq_1_ ) ) ) )"
+        uri.setDataSource("", sql ,"geom","","_uid_")
+        vlayer = QgsVectorLayer(uri.uri(),"capaseg","postgres")
+        if not vlayer.isValid():
+            print ("No se cargo la capa ")
+        QgsProject.instance().addMapLayer(vlayer)
+        renderer = vlayer.renderer()
+        vlayer.loadNamedStyle(origen[0] +'\estilo_segmento\capaconsulta.qml')
+        iface.mapCanvas().refresh() 
+        QgsProject.instance().mapLayers().values()
+        vlayer.triggerRepaint() 
         ############################# Agrego la capa Descripcion ########################### 
         sql = aglomerado[0] + ".descripcion_segmentos"
         uri.setDataSource("", "( select * from " + sql + ")","geom","","link")
