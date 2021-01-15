@@ -1,31 +1,30 @@
-# Segmentador Automático
+Plugin Builder Results
 
-### Requerimos
+Your plugin CensoSegmento was created in:
+    /home/machine/.local/share/QGIS/QGIS3/profiles/default/python/plugins/censo_segmento
 
-1.  Cover e00 de cada localidad a segmentar y la C1.
+Your QGIS plugin directory is located at:
+    /home/machine/.local/share/QGIS/QGIS3/profiles/default/python/plugins
 
-2.  Programa Qgis 3.10 instalado.
+What's Next:
 
-3.  Buscador Firefox, Chromium, GoogleChrome
+  * Copy the entire directory containing your new plugin to the QGIS plugin
+    directory
 
-4.  Muchas buena onda : D
+  * Compile the resources file using pyrcc5
 
-### Pasos para segmentar, se definen 2 etapas claves
+  * Run the tests (``make test``)
 
-* Etapa 1- Segmentar
+  * Test the plugin by enabling it in the QGIS plugin manager
 
-Entra a link
-    [*www.blablablabla.gob.ar*](http://www.blablablabla.gob.ar/) para
-    segmentar una localidad, el proceso de segmentación se realiza con
-    una cobertura a por vez, se necesita paciencia y concentración para
-    no confundir los pasos y números de aglomerados.
+  * Customize it by editing the implementation file: ``censo_segmento.py``
 
-[*http://*](http://)
+  * Create your own custom icon, replacing the default icon.png
 
-* Etapa 2 – Salida Grafica
+  * Modify your user interface by opening CensoSegmento_dialog_base.ui in Qt Designer
 
-TODO: Agregar link al otro documento/guia
-
+  * You can use the Makefile to compile your Ui and resource files when
+    you make changes. This requires GNU make (gmake)
 
 For more information, see the PyQGIS Developer Cookbook at:
 http://www.qgis.org/pyqgis-cookbook/index.html
