@@ -24,7 +24,7 @@ Entra a link
 
 * Etapa 2 – Salida Grafica
 
-TODO: Agregar link al otro documento/guia
+Ver más en [Guia Mandarina](./guia_mandarina.md)
 
 
 For more information, see the PyQGIS Developer Cookbook at:
