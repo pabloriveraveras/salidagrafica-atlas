@@ -5,6 +5,8 @@ from PyQt5.QtWidgets import QAction, QDialog, QFormLayout
 from qgis.PyQt.QtXml import QDomDocument
 #####################################Conexion PostGIS##############################################
 from qgis.utils import iface
+import os.path
+
 #####################################Conexion existente en el admnistrador de BD##############################################
 ##########Conexion desde BD existente a Postgis
 #qs = QSettings()
@@ -20,17 +22,20 @@ from qgis.utils import iface
 
 qs = QSettings()
 dbUsr = QInputDialog.getText(None, 'usuario', 'Introduce el nombre de usuario de la base de datos')
-dbPwd = QInputDialog.getText(None, 'contraseña', 'Introduce la contraseña')
+dbPwd = QInputDialog.getText(None,  'contraseña', 'Introduce la contraseña', QLineEdit.Password)
 uri = QgsDataSourceUri()
 uri.setConnection("10.70.80.62","5432","DEVSEG",dbUsr[0],dbPwd[0])
 
 origen = QInputDialog.getText(None, 'origen', 'Introduce la ruta de acceso')
 aglomerado = QInputDialog.getText(None, 'aglomerado', 'Introduce el nombre completo del aglomerado')
+#origen = os.path.dirname(os.path.realpath(__file__))
+
+
 
 
 ####################### Agrego las tablas .CSV de datos geograficos############################
 ####### Agrego tabla provincia
-capa = origen[0] + '\datos_prov\provincia.csv'
+capa = origen [0]+ '/datos_prov/provincia.csv'
 nomcapa = 'provincia'  
 layer = QgsVectorLayer(capa,nomcapa,'ogr')
 if not layer.isValid():
