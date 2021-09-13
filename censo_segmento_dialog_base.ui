@@ -7,11 +7,21 @@
     <x>0</x>
     <y>0</y>
     <width>406</width>
-    <height>271</height>
+    <height>256</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Censo Segmento</string>
+   <string>Segmentación Censo Ronda 2020</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/plugins/censo_segmento/icon.png</normaloff>:/plugins/censo_segmento/icon.png</iconset>
+  </property>
+  <property name="accessibleName">
+   <string extracomment="segmentador"/>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
   </property>
   <widget class="QPushButton" name="buttonRadio">
    <property name="geometry">
@@ -76,8 +86,8 @@
     <rect>
      <x>40</x>
      <y>60</y>
-     <width>301</width>
-     <height>71</height>
+     <width>321</width>
+     <height>121</height>
     </rect>
    </property>
    <property name="sizePolicy">
@@ -87,7 +97,7 @@
     </sizepolicy>
    </property>
    <property name="text">
-    <string>Este es el menu pricipal para acceder a los resultados del proceso de segmentación desarrollado por la Coordinación de Geoestastina del INDEC.</string>
+    <string>Menu principal para acceder a los resultados del proceso de segmentación desarrollado por la Coordinación del Sistema Geoestadistico del Instituto Nacional De Estadística y Censos de la República Argentina (INDEC).</string>
    </property>
    <property name="textFormat">
     <enum>Qt::PlainText</enum>
@@ -106,7 +116,7 @@
     </rect>
    </property>
    <property name="sizePolicy">
-    <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+    <sizepolicy hsizetype="Fixed" vsizetype="Maximum">
      <horstretch>0</horstretch>
      <verstretch>0</verstretch>
     </sizepolicy>
@@ -139,6 +149,8 @@ p, li { white-space: pre-wrap; }
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
  <connections/>
 </ui>
