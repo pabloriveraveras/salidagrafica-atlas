@@ -334,8 +334,8 @@ class CensoSegmento:
         layer.triggerRepaint() 
 
         ############################# Agrego la capa Descripcion ########################### 
-        sql = aglomerado[0] + ".descripcion_segmentos"
-        uri.setDataSource("", "( select * from " + sql + ")","geom","","link")
+        sql = aglomerado[0]
+        uri.setDataSource("", "( select * , st_point(0,0) geom from indec.describe_segmentos_con_direcciones('" + sql + "'))","geom","", "segmento_id")
         layer = QgsVectorLayer(uri.uri(), "descripcion", "postgres")
         if not layer.isValid():
             print ("No se cargo capa Descripcion")
@@ -512,8 +512,8 @@ class CensoSegmento:
         QgsProject.instance().mapLayers().values()
         vlayer.triggerRepaint() 
         ############################# Agrego la capa Descripcion ########################### 
-        sql = aglomerado[0] + ".descripcion_segmentos"
-        uri.setDataSource("", "( select * from " + sql + ")","geom","","link")
+        sql = aglomerado[0] 
+        uri.setDataSource("", "( select * , st_point(0,0) geom from indec.describe_segmentos_con_direcciones('" + sql + "'))","geom","", "segmento_id")
         layer = QgsVectorLayer(uri.uri(), "descripcion_seg", "postgres")
         if not layer.isValid():
             print ("No se cargo capa Descripcion")
