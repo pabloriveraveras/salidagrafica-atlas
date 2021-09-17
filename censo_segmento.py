@@ -336,7 +336,7 @@ class CensoSegmento:
 
         ############################# Agrego la capa Descripcion ########################### 
         sql = aglomerado[0]
-        uri.setDataSource("", "( select * , concat(prov,dpto,codloc,lpad(frac::text,2,'0'),lpad(radio::text,2,'0'),seg) link , st_point(0,0) geom from indec.describe_segmentos_con_direcciones('" + sql + "'))","geom","", "segmento_id")
+        uri.setDataSource("", "( select * ,concat(lpad(prov::text,2,'0'),lpad(dpto::text,3,'0'),lpad(codloc::text,3,'0'),lpad(frac::text,2,'0'),lpad(radio::text,2,'0'),seg) link,  st_point(0,0) geom from indec.describe_segmentos_con_direcciones('" + sql + "'))","geom","", "segmento_id")
         layer = QgsVectorLayer(uri.uri(), "descripcion", "postgres")
         if not layer.isValid():
             print ("No se cargo capa Descripcion")
@@ -501,7 +501,7 @@ class CensoSegmento:
 
 
         ############################# Agrego la capa  atlas segmento########################### 
-        sql = "((((SELECT row_number() over () AS _uid_ , * , concat(prov,depto, lpad(loc::text,3,'0'),frac,radio,lpad(seg::text,2,'0')) linkcapa FROM (SELECT row_number () over () id, prov,depto,loc,frac,radio,seg, geom  FROM (SELECT prov,depto,loc,frac,radio,seg,(st_union(geom )) geom  FROM (SELECT  substring(mza,1,2) prov, substring(mza, 3,3)  depto, substring(mza,6,3) loc, substring(mza,9,2) frac, substring(mza,11,2) radio,  seg,  geom   FROM (SELECT   mzai mza, ladoi lado, segi seg , wkb_geometry geom FROM " +  aglomerado[0] + ".arc" + " where segi is not null UNION  SELECT mzad mza, ladod lado, segd seg, wkb_geometry geom  FROM " +   aglomerado[0] + ".arc" + " where segd is not null ) foo ) foo2  group by prov,depto,loc,frac,radio,seg  ) foo3 ) AS _subq_1_ ) ) ) )"
+        sql = "((((SELECT row_number() over () AS _uid_ , * , concat(lpad(prov::text,3,'0'),depto, loc,frac,radio,lpad(seg::text,2,'0')) linkcapa FROM (SELECT row_number () over () id, prov,depto,loc,frac,radio,seg, geom  FROM (SELECT prov,depto,loc,frac,radio,seg,(st_union(geom )) geom  FROM (SELECT  substring(mza,1,2) prov, substring(mza, 3,3)  depto, substring(mza,6,3) loc, substring(mza,9,2) frac, substring(mza,11,2) radio,  seg,  geom   FROM (SELECT   mzai mza, ladoi lado, segi seg , wkb_geometry geom FROM " +  aglomerado[0] + ".arc" + " where segi is not null UNION  SELECT mzad mza, ladod lado, segd seg, wkb_geometry geom  FROM " +   aglomerado[0] + ".arc" + " where segd is not null ) foo ) foo2  group by prov,depto,loc,frac,radio,seg  ) foo3 ) AS _subq_1_ ) ) ) )"
         uri.setDataSource("", sql ,"geom","","_uid_")
         vlayer = QgsVectorLayer(uri.uri(),"capaseg","postgres")
         if not vlayer.isValid():
@@ -514,7 +514,7 @@ class CensoSegmento:
         vlayer.triggerRepaint() 
         ############################# Agrego la capa Descripcion ########################### 
         sql = aglomerado[0] 
-        uri.setDataSource("", "( select * ,concat(prov,lpad(dpto::text,3,'0'),codloc,lpad(frac::text,2,'0'),lpad(radio::text,2,'0'),seg) link,  st_point(0,0) geom from indec.describe_segmentos_con_direcciones('" + sql + "'))","geom","", "segmento_id")
+        uri.setDataSource("", "( select * ,concat(lpad(prov::text,2,'0'),lpad(dpto::text,3,'0'),lpad(codloc::text,3,'0'),lpad(frac::text,2,'0'),lpad(radio::text,2,'0'),seg) link,  st_point(0,0) geom from indec.describe_segmentos_con_direcciones('" + sql + "'))","geom","", "segmento_id")
         layer = QgsVectorLayer(uri.uri(), "descripcion_seg", "postgres")
         if not layer.isValid():
             print ("No se cargo capa Descripcion")
