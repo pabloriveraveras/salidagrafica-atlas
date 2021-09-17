@@ -245,6 +245,18 @@ class CensoSegmento:
 #       print(sys.path[0])
 #       print (origen)
 
+
+        #### pantalla de proceso de carga##########
+        m = ""
+        bar = QProgressDialog(m, "Cancel", 0, 100)
+        import time
+        bar.setWindowModality(Qt.WindowModal)
+        bar.setWindowFlags(Qt.WindowStaysOnTopHint)
+        m = "Cargando proyecto"
+        bar.setLabelText(m)
+        for i in range(101):
+            time.sleep(0.05)
+            bar.setValue(i)
         ####################### Agrego las tablas .CSV de datos geograficos############################
         ####### Agrego tabla provincia
         capa = origen + '\datos_prov\provincia.csv'
