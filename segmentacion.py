@@ -173,19 +173,26 @@ else:
 
 
     #### Plantilla tamaño nuevo ###############  
-ruta2= ruta= origen[0] + r'/plantillas/radio_a3_.qpt'
+ruta3= ruta= origen[0] + r'/plantillas/radio_a3.qpt'
 if os.path.exists(ruta2):
-    with open(ruta2, 'r') as templateFile:
+    with open(ruta3, 'r') as templateFile:
         myTemplateContent = templateFile.read()
     layout=QgsPrintLayout(pry)
     lmg = QgsProject.instance().layoutManager()
-    layout.setName("nuevo")
+    layout.setName('descripcion_seg')
     layout.initializeDefaults()
     myDocument = QDomDocument()
     myDocument.setContent(myTemplateContent)
     ms = QgsMapSettings()
     layout.loadFromTemplate(myDocument,QgsReadWriteContext(),True)
     lmg.addLayout(layout)
+    
+    lsyer= 'segmentos'
+    mCoverageLayer.setLayer( layer )
+ 
+ 
+  
+    
 else:
     print("error en la ruta del archivo A3")
 
