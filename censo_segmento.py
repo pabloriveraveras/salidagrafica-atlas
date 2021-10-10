@@ -256,7 +256,7 @@ class CensoSegmento:
         QgsProject.instance().addMapLayer(layer)
         renderer = layer.renderer()
         ####### Agrego tabla departamento##################################
-        capa = (origen + '\datos_prov\departamentos.csv')
+        capa = (origen + '\datos_prov\departamentos.dbf')
         nomcapa = 'departamento'  
         layer = QgsVectorLayer(capa,nomcapa,'ogr')
         if not layer.isValid():
