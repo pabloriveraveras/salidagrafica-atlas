@@ -224,9 +224,9 @@ class CensoSegmento:
         ##########Conexion desde BD a Postgis
         QgsProject.instance().clear()
         qs = QSettings()
-        dbHost = qs.value("PostgreSQL/connections/informatica/host",'10.70.80.62')
+        dbHost = qs.value("PostgreSQL/connections/informatica/host",'172.26.68.223')
         dbPort = qs.value("PostgreSQL/connections/informatica/port",'5432')
-        dbName = qs.value("PostgreSQL/connections/informatica/database",'DEVSEG')
+        dbName = qs.value("PostgreSQL/connections/informatica/database",'UATSEG')
         
         ############Pedir al usuario cargar los campos de  usuario y contraseña
         dbUsr = QInputDialog.getText(None, 'usuario', 'Introduce el nombre de usuario de la base de datos')
@@ -250,7 +250,7 @@ class CensoSegmento:
         ####### Agrego tabla provincia
         capa = origen + '\datos_prov\provincia.csv'
         nomcapa = 'provincia'  
-        layer = QgsVectorLayer(capa,nomcapa,'ogr')
+        layer = QgsVectorLayer(capa,nomcapa,'ogr',encoding=UTF-8)
         if not layer.isValid():
             print ("la capa no es correcta")
         QgsProject.instance().addMapLayer(layer)
@@ -396,9 +396,9 @@ class CensoSegmento:
         ##########Conexion desde BD a Postgis
         QgsProject.instance().clear()
         qs = QSettings()
-        dbHost = qs.value("PostgreSQL/connections/informatica/host",'10.70.80.62')
+        dbHost = qs.value("PostgreSQL/connections/informatica/host",'172.26.68.223')
         dbPort = qs.value("PostgreSQL/connections/informatica/port",'5432')
-        dbName = qs.value("PostgreSQL/connections/informatica/database",'DEVSEG')
+        dbName = qs.value("PostgreSQL/connections/informatica/database",'UATSEG')
         ############Pedir al usuario cargar los campos de  usuario y contraseña
         dbUsr = QInputDialog.getText(None, 'usuario', 'Introduce el nombre de usuario de la base de datos')
         dbPwd = QInputDialog.getText(None, 'contraseña', 'Introduce la contraseña', QLineEdit.Password)
