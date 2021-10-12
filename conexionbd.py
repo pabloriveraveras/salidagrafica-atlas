@@ -21,7 +21,7 @@ def conectar():
     """ Conexión al servidor de pases de datos PostgreSQL """
     conexion = "Conexion Censo"
 
-    params =  psycopg2.connect(host="10.70.80.62", database="devseg")
+    params =  psycopg2.connect(host="172.26.68.233", database="UATSEG")
     try:
         # Lectura de los parámetros de conexion
         
