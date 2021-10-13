@@ -266,7 +266,7 @@ class CensoSegmento:
         #######  Agrego tabla localidad######################
         capa = (origen + '\datos_prov\localidad.csv')
         nomcapa = 'localidad'  
-        layer = QgsVectorLayer(capa,nomcapa,'ogr', utf_8_encode)
+        layer = QgsVectorLayer(capa,nomcapa,'ogr')
         if not layer.isValid():
             print ("la capa no es correcta")
         QgsProject.instance().addMapLayer(layer)
