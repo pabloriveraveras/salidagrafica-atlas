@@ -248,7 +248,7 @@ class CensoSegmento:
 
         ####################### Agrego las tablas .CSV de datos geograficos############################
         ####### Agrego tabla provincia
-        capa = origen + '/datos_prov/provincia.csv?delimiter={}'.format(os.getcwd(), ",")
+        capa = origen + '\datos_prov\provincia.csv?delimiter={}'.format(",")
         nomcapa = 'provincia'  
         layer = QgsVectorLayer(capa,nomcapa,"delimitedtext")
         if not layer.isValid():
