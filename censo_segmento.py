@@ -250,7 +250,7 @@ class CensoSegmento:
         ####### Agrego tabla provincia
         capa = origen + '\datos_prov\provincia.csv'
         nomcapa = 'provincia'  
-        layer = QgsVectorLayer(capa,nomcapa,'ogr')
+        layer = QgsVectorLayer(capa,nomcapa,'ogr'.'UTF-8')
         if not layer.isValid():
             print ("la capa no es correcta")
         QgsProject.instance().addMapLayer(layer)
@@ -258,7 +258,7 @@ class CensoSegmento:
         ####### Agrego tabla departamento##################################
         capa = (origen + '\datos_prov\departamentos.csv')
         nomcapa = 'departamento'  
-        layer = QgsVectorLayer(capa,nomcapa,'ogr')
+        layer = QgsVectorLayer(capa,nomcapa,'UTF-8', 'ogr')
         if not layer.isValid():
             print ("la capa no es correcta")
         QgsProject.instance().addMapLayer(layer)
@@ -266,7 +266,7 @@ class CensoSegmento:
         #######  Agrego tabla localidad######################
         capa = (origen + '\datos_prov\localidad.csv')
         nomcapa = 'localidad'  
-        layer = QgsVectorLayer(capa,nomcapa,'ogr')
+        layer = QgsVectorLayer(capa,nomcapa,'ogr', utf_8_encode)
         if not layer.isValid():
             print ("la capa no es correcta")
         QgsProject.instance().addMapLayer(layer)
