@@ -1,538 +1,538 @@
-id,codigo,nombre,provincia_id,fecha_desde,fecha_hasta,observacion_id,geometria_id
-"66","06329",General Las Heras,"2",,,,
-"67","06336",General Lavalle,"2",,,,
-"68","06343",General Paz,"2",,,,
-"69","06351",General Pinto,"2",,,,
-"70","06357",General Pueyrredón,"2",,,,
-"71","06364",General Rodríguez,"2",,,,
-"72","06371",General San Martín,"2",,,,
-"73","06385",General Viamonte,"2",,,,
-"74","06392",General Villegas,"2",,,,
-"75","06399",Guaminí,"2",,,,
-"76","06406",Hipólito Yrigoyen,"2",,,,
-"77","06408",Hurlingham,"2",,,,
-"78","06410",Ituzaingó,"2",,,,
-"79","06412",José C. Paz,"2",,,,
-"80","06413",Junín,"2",,,,
-"81","06420",La Costa,"2",,,,
-"82","06427",La Matanza,"2",,,,
-"83","06434",Lanús,"2",,,,
-"84","06441",La Plata,"2",,,,
-"85","06448",Laprida,"2",,,,
-"86","06455",Las Flores,"2",,,,
-"87","06462",Leandro N. Alem,"2",,,,
-"88","06469",Lincoln,"2",,,,
-"89","06476",Lobería,"2",,,,
-"90","06483",Lobos,"2",,,,
-"91","06490",Lomas de Zamora,"2",,,,
-"92","06497",Luján,"2",,,,
-"93","06505",Magdalena,"2",,,,
-"94","06511",Maipú,"2",,,,
-"95","06515",Malvinas Argentinas,"2",,,,
-"96","06518",Mar Chiquita,"2",,,,
-"97","06525",Marcos Paz,"2",,,,
-"98","06532",Mercedes,"2",,,,
-"99","06539",Merlo,"2",,,,
-"100","06547",Monte,"2",,,,
-"101","06553",Monte Hermoso,"2",,,,
-"102","06560",Moreno,"2",,,,
-"103","06568",Morón,"2",,,,
-"104","06574",Navarro,"2",,,,
-"105","06581",Necochea,"2",,,,
-"106","06588",9 de Julio,"2",,,,
-"107","06595",Olavarría,"2",,,,
-"108","06602",Patagones,"2",,,,
-"109","06609",Pehuajó,"2",,,,
-"110","06616",Pellegrini,"2",,,,
-"111","06623",Pergamino,"2",,,,
-"112","06630",Pila,"2",,,,
-"113","06638",Pilar,"2",,,,
-"114","06644",Pinamar,"2",,,,
-"115","06648",Presidente Perón,"2",,,,
-"116","06651",Puán,"2",,,,
-"117","06655",Punta Indio,"2",,,,
-"118","06658",Quilmes,"2",,,,
-"119","06665",Ramallo,"2",,,,
-"120","06672",Rauch,"2",,,,
-"121","06679",Rivadavia,"2",,,,
-"122","06686",Rojas,"2",,,,
-"123","06693",Roque Pérez,"2",,,,
-"124","06700",Saavedra,"2",,,,
-"125","06707",Saladillo,"2",,,,
-"126","06714",Salto,"2",,,,
-"127","06721",Salliqueló,"2",,,,
-"128","06728",San Andrés de Giles,"2",,,,
-"129","06735",San Antonio de Areco,"2",,,,
-"130","06742",San Cayetano,"2",,,,
-"131","06749",San Fernando,"2",,,,
-"132","06756",San Isidro,"2",,,,
-"133","06760",San Miguel,"2",,,,
-"134","06763",San Nicolás,"2",,,,
-"135","06770",San Pedro,"2",,,,
-"136","06778",San Vicente,"2",,,,
-"137","06784",Suipacha,"2",,,,
-"138","06791",Tandil,"2",,,,
-"139","06798",Tapalqué,"2",,,,
-"140","06805",Tigre,"2",,,,
-"141","06812",Tordillo,"2",,,,
-"142","06819",Tornquist,"2",,,,
-"143","06826",Trenque Lauquen,"2",,,,
-"144","06833",Tres Arroyos,"2",,,,
-"145","06840",Tres de Febrero,"2",,,,
-"146","06847",Tres Lomas,"2",,,,
-"147","06854",25 de Mayo,"2",,,,
-"148","06861",Vicente López,"2",,,,
-"149","06868",Villa Gesell,"2",,,,
-"150","06875",Villarino,"2",,,,
-"151","06882",Zárate,"2",,,,
-"152","10007",Ambato,"3",,,,
-"153","10014",Ancasti,"3",,,,
-"154","10021",Andalgalá,"3",,,,
-"155","10028",Antofagasta de la Sierra,"3",,,,
-"156","10035",Belén,"3",,,,
-"157","10042",Capayán,"3",,,,
-"158","10049",Capital,"3",,,,
-"159","10056",El Alto,"3",,,,
-"160","10063",Fray Mamerto Esquiú,"3",,,,
-"161","10070",La Paz,"3",,,,
-"162","10077",Paclín,"3",,,,
-"163","10084",Pomán,"3",,,,
-"164","10091",Santa María,"3",,,,
-"165","10098",Santa Rosa,"3",,,,
-"166","10105",Tinogasta,"3",,,,
-"167","10112",Valle Viejo,"3",,,,
-"168","14007",Calamuchita,"4",,,,
-"169","14014",Capital,"4",,,,
-"170","14021",Colón,"4",,,,
-"171","14028",Cruz del Eje,"4",,,,
-"172","14035",General Roca,"4",,,,
-"173","14042",General San Martín,"4",,,,
-"174","14049",Ischilín,"4",,,,
-"175","14056",Juárez Celman,"4",,,,
-"176","14063",Marcos Juárez,"4",,,,
-"177","14070",Minas,"4",,,,
-"178","14077",Pocho,"4",,,,
-"179","14084",Presidente Roque Sáenz Peña,"4",,,,
-"180","14091",Punilla,"4",,,,
-"181","14098",Río Cuarto,"4",,,,
-"182","14105",Río Primero,"4",,,,
-"183","14112",Río Seco,"4",,,,
-"184","14119",Río Segundo,"4",,,,
-"185","14126",San Alberto,"4",,,,
-"186","14133",San Javier,"4",,,,
-"187","14140",San Justo,"4",,,,
-"188","14147",Santa María,"4",,,,
-"189","14154",Sobremonte,"4",,,,
-"190","14161",Tercero Arriba,"4",,,,
-"191","14168",Totoral,"4",,,,
-"192","14175",Tulumba,"4",,,,
-"193","14182",Unión,"4",,,,
-"194","18007",Bella Vista,"5",,,,
-"195","18014",Berón de Astrada,"5",,,,
-"196","18021",Capital,"5",,,,
-"197","18028",Concepción,"5",,,,
-"198","18035",Curuzú Cuatiá,"5",,,,
-"199","18042",Empedrado,"5",,,,
-"200","18049",Esquina,"5",,,,
-"201","18056",General Alvear,"5",,,,
-"202","18063",General Paz,"5",,,,
-"203","18070",Goya,"5",,,,
-"204","18077",Itatí,"5",,,,
-"205","18084",Ituzaingó,"5",,,,
-"206","18091",Lavalle,"5",,,,
-"207","18098",Mburucuyá,"5",,,,
-"208","18105",Mercedes,"5",,,,
-"209","18112",Monte Caseros,"5",,,,
-"210","18119",Paso de los Libres,"5",,,,
-"211","18126",Saladas,"5",,,,
-"212","18133",San Cosme,"5",,,,
-"213","18140",San Luis del Palmar,"5",,,,
-"214","18147",San Martín,"5",,,,
-"215","18154",San Miguel,"5",,,,
-"216","18161",San Roque,"5",,,,
-"217","18168",Santo Tomé,"5",,,,
-"218","18175",Sauce,"5",,,,
-"219","22007",Almirante Brown,"6",,,,
-"220","22014",Bermejo,"6",,,,
-"221","22021",Comandante Fernández,"6",,,,
-"222","22028",Chacabuco,"6",,,,
-"223","22036",12 de Octubre,"6",,,,
-"224","22039",2 de Abril,"6",,,,
-"225","22043",Fray Justo Santa María de Oro,"6",,,,
-"226","22049",General Belgrano,"6",,,,
-"227","22056",General Donovan,"6",,,,
-"228","22063",General Güemes,"6",,,,
-"229","22070",Independencia,"6",,,,
-"230","22077",Libertad,"6",,,,
-"231","22084",Libertador General San Martín,"6",,,,
-"232","22091",Maipú,"6",,,,
-"233","22098",Mayor Luis J. Fontana,"6",,,,
-"234","22105",9 de Julio,"6",,,,
-"235","22112",O'Higgins,"6",,,,
-"236","22119",Presidencia de la Plaza,"6",,,,
-"237","22126",1º de Mayo,"6",,,,
-"238","22133",Quitilipi,"6",,,,
-"239","22140",San Fernando,"6",,,,
-"240","22147",San Lorenzo,"6",,,,
-"241","22154",Sargento Cabral,"6",,,,
-"242","22161",Tapenagá,"6",,,,
-"243","22168",25 de Mayo,"6",,,,
-"244","26007",Biedma,"7",,,,
-"245","26014",Cushamen,"7",,,,
-"246","26021",Escalante,"7",,,,
-"247","26028",Florentino Ameghino,"7",,,,
-"248","26035",Futaleufú,"7",,,,
-"249","26042",Gaiman,"7",,,,
-"250","26049",Gastre,"7",,,,
-"251","26056",Languiñeo,"7",,,,
-"252","26063",Mártires,"7",,,,
-"253","26070",Paso de Indios,"7",,,,
-"254","26077",Rawson,"7",,,,
-"255","26084",Río Senguer,"7",,,,
-"256","26091",Sarmiento,"7",,,,
-"257","26098",Tehuelches,"7",,,,
-"258","26105",Telsen,"7",,,,
-"259","30008",Colón,"8",,,,
-"260","30015",Concordia,"8",,,,
-"261","30021",Diamante,"8",,,,
-"262","30028",Federación,"8",,,,
-"263","30035",Federal,"8",,,,
-"264","30042",Feliciano,"8",,,,
-"265","30049",Gualeguay,"8",,,,
-"266","30056",Gualeguaychú,"8",,,,
-"267","30063",Islas del Ibicuy,"8",,,,
-"268","30070",La Paz,"8",,,,
-"269","30077",Nogoyá,"8",,,,
-"270","30084",Paraná,"8",,,,
-"271","30088",San Salvador,"8",,,,
-"272","30091",Tala,"8",,,,
-"273","30098",Uruguay,"8",,,,
-"274","30105",Victoria,"8",,,,
-"275","30113",Villaguay,"8",,,,
-"276","34007",Bermejo,"9",,,,
-"277","34014",Formosa,"9",,,,
-"278","34021",Laishi,"9",,,,
-"279","34028",Matacos,"9",,,,
-"280","34035",Patiño,"9",,,,
-"281","34042",Pilagás,"9",,,,
-"282","34049",Pilcomayo,"9",,,,
-"283","34056",Pirané,"9",,,,
-"284","34063",Ramón Lista,"9",,,,
-"285","38007",Cochinoca,"10",,,,
-"286","38014",El Carmen,"10",,,,
-"287","38021",Dr. Manuel Belgrano,"10",,,,
-"288","38028",Humahuaca,"10",,,,
-"289","38035",Ledesma,"10",,,,
-"291","38049",Rinconada,"10",,,,
-"292","38056",San Antonio,"10",,,,
-"293","38063",San Pedro,"10",,,,
-"294","38070",Santa Bárbara,"10",,,,
-"295","38077",Santa Catalina,"10",,,,
-"296","38084",Susques,"10",,,,
-"297","38094",Tilcara,"10",,,,
-"298","38098",Tumbaya,"10",,,,
-"299","38105",Valle Grande,"10",,,,
-"300","38112",Yavi,"10",,,,
-"301","42007",Atreucó,"11",,,,
-"302","42014",Caleu Caleu,"11",,,,
-"303","42021",Capital,"11",,,,
-"304","42028",Catriló,"11",,,,
-"305","42035",Conhelo,"11",,,,
-"306","42042",Curacó,"11",,,,
-"307","42049",Chalileo,"11",,,,
-"308","42056",Chapaleufú,"11",,,,
-"309","42063",Chical Co,"11",,,,
-"310","42070",Guatraché,"11",,,,
-"311","42077",Hucal,"11",,,,
-"312","42084",Lihuel Calel,"11",,,,
-"313","42091",Limay Mahuida,"11",,,,
-"314","42098",Loventué,"11",,,,
-"315","42105",Maracó,"11",,,,
-"316","42112",Puelén,"11",,,,
-"317","42119",Quemú Quemú,"11",,,,
-"318","42126",Rancul,"11",,,,
-"319","42133",Realicó,"11",,,,
-"320","42140",Toay,"11",,,,
-"321","42147",Trenel,"11",,,,
-"322","42154",Utracán,"11",,,,
-"323","46007",Arauco,"12",,,,
-"324","46014",Capital,"12",,,,
-"325","46021",Castro Barros,"12",,,,
-"327","46035",Chamical,"12",,,,
-"328","46042",Chilecito,"12",,,,
-"329","46049",Famatina,"12",,,,
-"331","46063",General Belgrano,"12",,,,
-"333","46077",General Lamadrid,"12",,,,
-"335","46091",General San Martín,"12",,,,
-"336","46098",Vinchina,"12",,,,
-"337","46105",Independencia,"12",,,,
-"338","46112",Rosario Vera Peñaloza,"12",,,,
-"340","46126",Sanagasta,"12",,,,
-"341","50007",Capital,"13",,,,
-"342","50014",General Alvear,"13",,,,
-"343","50021",Godoy Cruz,"13",,,,
-"344","50028",Guaymallén,"13",,,,
-"345","50035",Junín,"13",,,,
-"346","50042",La Paz,"13",,,,
-"347","50049",Las Heras,"13",,,,
-"348","50056",Lavalle,"13",,,,
-"349","50063",Luján de Cuyo,"13",,,,
-"350","50070",Maipú,"13",,,,
-"351","50077",Malargüe,"13",,,,
-"352","50084",Rivadavia,"13",,,,
-"353","50091",San Carlos,"13",,,,
-"354","50098",San Martín,"13",,,,
-"326","46028",Coronel Felipe Varela,"12",,2018/01/04,,
-"330","46056",General Angel V. Peñaloza,"12",,2018/01/04,,
-"334","46084",General Ocampo,"12",,2018/01/04,,
-"355","50105",San Rafael,"13",,,,
-"356","50112",Santa Rosa,"13",,,,
-"357","50119",Tunuyán,"13",,,,
-"358","50126",Tupungato,"13",,,,
-"359","54007",Apóstoles,"14",,,,
-"360","54014",Cainguás,"14",,,,
-"361","54021",Candelaria,"14",,,,
-"362","54028",Capital,"14",,,,
-"363","54035",Concepción,"14",,,,
-"364","54042",Eldorado,"14",,,,
-"365","54049",General Manuel Belgrano,"14",,,,
-"366","54056",Guaraní,"14",,,,
-"367","54063",Iguazú,"14",,,,
-"368","54070",Leandro N. Alem,"14",,,,
-"369","54077",Libertador General San Martín,"14",,,,
-"370","54084",Montecarlo,"14",,,,
-"371","54091",Oberá,"14",,,,
-"372","54098",San Ignacio,"14",,,,
-"373","54105",San Javier,"14",,,,
-"374","54112",San Pedro,"14",,,,
-"375","54119",25 de Mayo,"14",,,,
-"376","58007",Aluminé,"15",,,,
-"377","58014",Añelo,"15",,,,
-"378","58021",Catan Lil,"15",,,,
-"379","58028",Collón Curá,"15",,,,
-"380","58035",Confluencia,"15",,,,
-"381","58042",Chos Malal,"15",,,,
-"382","58049",Huiliches,"15",,,,
-"383","58056",Lácar,"15",,,,
-"384","58063",Loncopué,"15",,,,
-"385","58070",Los Lagos,"15",,,,
-"386","58077",Minas,"15",,,,
-"387","58084",Ñorquín,"15",,,,
-"388","58091",Pehuenches,"15",,,,
-"389","58098",Picún Leufú,"15",,,,
-"390","58105",Picunches,"15",,,,
-"391","58112",Zapala,"15",,,,
-"392","62007",Adolfo Alsina,"16",,,,
-"393","62014",Avellaneda,"16",,,,
-"394","62021",Bariloche,"16",,,,
-"395","62028",Conesa,"16",,,,
-"396","62035",El Cuy,"16",,,,
-"397","62042",General Roca,"16",,,,
-"398","62049",9 de Julio,"16",,,,
-"399","62056",Ñorquinco,"16",,,,
-"400","62063",Pichi Mahuida,"16",,,,
-"401","62070",Pilcaniyeu,"16",,,,
-"402","62077",San Antonio,"16",,,,
-"403","62084",Valcheta,"16",,,,
-"404","62091",25 de Mayo,"16",,,,
-"405","66007",Anta,"17",,,,
-"406","66014",Cachi,"17",,,,
-"407","66021",Cafayate,"17",,,,
-"408","66028",Capital,"17",,,,
-"409","66035",Cerrillos,"17",,,,
-"410","66042",Chicoana,"17",,,,
-"411","66049",General Güemes,"17",,,,
-"412","66056",General José de San Martín,"17",,,,
-"414","66063",Guachipas,"17",,,,
-"415","66070",Iruya,"17",,,,
-"416","66077",La Caldera,"17",,,,
-"417","66084",La Candelaria,"17",,,,
-"418","66091",La Poma,"17",,,,
-"419","66098",La Viña,"17",,,,
-"420","66105",Los Andes,"17",,,,
-"421","66112",Metán,"17",,,,
-"422","66119",Molinos,"17",,,,
-"423","66126",Orán,"17",,,,
-"424","66133",Rivadavia,"17",,,,
-"425","66140",Rosario de la Frontera,"17",,,,
-"426","66147",Rosario de Lerma,"17",,,,
-"427","66154",San Carlos,"17",,,,
-"428","66161",Santa Victoria,"17",,,,
-"429","70007",Albardón,"18",,,,
-"430","70014",Angaco,"18",,,,
-"431","70021",Calingasta,"18",,,,
-"432","70035",Caucete,"18",,,,
-"433","70049",Iglesia,"18",,,,
-"434","70056",Jáchal,"18",,,,
-"435","70063",9 de Julio,"18",,,,
-"436","70070",Pocito,"18",,,,
-"437","70077",Rawson,"18",,,,
-"438","70084",Rivadavia,"18",,,,
-"439","70091",San Martín,"18",,,,
-"440","70098",Santa Lucía,"18",,,,
-"441","70105",Sarmiento,"18",,,,
-"442","70112",Ullúm,"18",,,,
-"443","70119",Valle Fértil,"18",,,,
-"444","70126",25 de Mayo,"18",,,,
-"445","70133",Zonda,"18",,,,
-"446","74007",Ayacucho,"19",,,,
-"447","74014",Belgrano,"19",,,,
-"448","74021",Coronel Pringles,"19",,,,
-"449","74028",Chacabuco,"19",,,,
-"450","74035",General Pedernera,"19",,,,
-"451","74042",Gobernador Dupuy,"19",,,,
-"452","74049",Junín,"19",,,,
-"454","74063",Libertador General San Martín,"19",,,,
-"455","78007",Corpen Aike,"20",,,,
-"456","78014",Deseado,"20",,,,
-"457","78021",Güer Aike,"20",,,,
-"458","78028",Lago Argentino,"20",,,,
-"459","78035",Lago Buenos Aires,"20",,,,
-"460","78042",Magallanes,"20",,,,
-"461","78049",Río Chico,"20",,,,
-"462","82007",Belgrano,"21",,,,
-"463","82014",Caseros,"21",,,,
-"464","82021",Castellanos,"21",,,,
-"465","82028",Constitución,"21",,,,
-"466","82035",Garay,"21",,,,
-"467","82042",General López,"21",,,,
-"468","82049",General Obligado,"21",,,,
-"469","82056",Iriondo,"21",,,,
-"470","82063",La Capital,"21",,,,
-"471","82070",Las Colonias,"21",,,,
-"472","82077",9 de Julio,"21",,,,
-"473","82084",Rosario,"21",,,,
-"474","82091",San Cristóbal,"21",,,,
-"475","82098",San Javier,"21",,,,
-"476","82105",San Jerónimo,"21",,,,
-"477","82112",San Justo,"21",,,,
-"478","82119",San Lorenzo,"21",,,,
-"479","82126",San Martín,"21",,,,
-"480","82133",Vera,"21",,,,
-"481","86007",Aguirre,"22",,,,
-"482","86014",Alberdi,"22",,,,
-"483","86021",Atamisqui,"22",,,,
-"484","86028",Avellaneda,"22",,,,
-"485","86035",Banda,"22",,,,
-"486","86042",Belgrano,"22",,,,
-"487","86049",Capital,"22",,,,
-"488","86056",Copo,"22",,,,
-"489","86063",Choya,"22",,,,
-"490","86070",Figueroa,"22",,,,
-"491","86077",General Taboada,"22",,,,
-"492","86084",Guasayán,"22",,,,
-"493","86091",Jiménez,"22",,,,
-"495","86105",Loreto,"22",,,,
-"496","86112",Mitre,"22",,,,
-"497","86119",Moreno,"22",,,,
-"498","86126",Ojo de Agua,"22",,,,
-"16","06007",Adolfo Alsina,"2",,,,
-"17","06014",Adolfo Gonzales Chaves,"2",,,,
-"18","06021",Alberti,"2",,,,
-"19","06028",Almirante Brown,"2",,,,
-"20","06035",Avellaneda,"2",,,,
-"21","06042",Ayacucho,"2",,,,
-"22","06049",Azul,"2",,,,
-"23","06056",Bahía Blanca,"2",,,,
-"24","06063",Balcarce,"2",,,,
-"25","06070",Baradero,"2",,,,
-"26","06077",Arrecifes,"2",,,,
-"27","06084",Benito Juárez,"2",,,,
-"28","06091",Berazategui,"2",,,,
-"29","06098",Berisso,"2",,,,
-"30","06105",Bolívar,"2",,,,
-"31","06112",Bragado,"2",,,,
-"32","06119",Brandsen,"2",,,,
-"33","06126",Campana,"2",,,,
-"34","06134",Cañuelas,"2",,,,
-"35","06140",Capitán Sarmiento,"2",,,,
-"36","06147",Carlos Casares,"2",,,,
-"37","06154",Carlos Tejedor,"2",,,,
-"38","06161",Carmen de Areco,"2",,,,
-"39","06168",Castelli,"2",,,,
-"40","06175",Colón,"2",,,,
-"43","06189",Coronel Dorrego,"2",,,,
-"44","06196",Coronel Pringles,"2",,,,
-"45","06203",Coronel Suárez,"2",,,,
-"499","86133",Pellegrini,"22",,,,
-"500","86140",Quebrachos,"22",,,,
-"501","86147",Río Hondo,"22",,,,
-"502","86154",Rivadavia,"22",,,,
-"503","86161",Robles,"22",,,,
-"504","86168",Salavina,"22",,,,
-"505","86175",San Martín,"22",,,,
-"506","86182",Sarmiento,"22",,,,
-"507","86189",Silípica,"22",,,,
-"508","90007",Burruyacú,"23",,,,
-"509","90014",Cruz Alta,"23",,,,
-"510","90021",Chicligasta,"23",,,,
-"511","90028",Famaillá,"23",,,,
-"512","90035",Graneros,"23",,,,
-"513","90042",Juan Bautista Alberdi,"23",,,,
-"514","90049",La Cocha,"23",,,,
-"527","94028",Antártida Argentina,"24",,,,
-"1","02001",Comuna 1,"1",,,"7600",
-"2","02002",Comuna 2,"1",,,"7601",
-"3","02003",Comuna 3,"1",,,"7602",
-"4","02004",Comuna 4,"1",,,"7603",
-"5","02005",Comuna 5,"1",,,"7604",
-"6","02006",Comuna 6,"1",,,"7605",
-"7","02007",Comuna 7,"1",,,"7606",
-"8","02008",Comuna 8,"1",,,"7607",
-"9","02009",Comuna 9,"1",,,"7608",
-"10","02010",Comuna 10,"1",,,"7609",
-"11","02011",Comuna 11,"1",,,"7610",
-"12","02012",Comuna 12,"1",,,"7611",
-"13","02013",Comuna 13,"1",,,"7612",
-"14","02014",Comuna 14,"1",,,"7613",
-"15","02015",Comuna 15,"1",,,"7614",
-"528","70028",Capital,"18",,,,
-"529","70042",Chimbas,"18",,,,
-"530","90084",Capital,"23",,,,
-"46","06210",Chacabuco,"2",,,,
-"48","06224",Chivilcoy,"2",,,,
-"49","06231",Daireaux,"2",,,,
-"50","06238",Dolores,"2",,,,
-"51","06245",Ensenada,"2",,,,
-"52","06252",Escobar,"2",,,,
-"53","06260",Esteban Echeverría,"2",,,,
-"54","06266",Exaltación de la Cruz,"2",,,,
-"55","06270",Ezeiza,"2",,,,
-"56","06274",Florencio Varela,"2",,,,
-"57","06277",Florentino Ameghino,"2",,,,
-"58","06280",General Alvarado,"2",,,,
-"59","06287",General Alvear,"2",,,,
-"60","06294",General Arenales,"2",,,,
-"61","06301",General Belgrano,"2",,,,
-"62","06308",General Guido,"2",,,,
-"63","06315",General Juan Madariaga,"2",,,,
-"65","06322",General La Madrid,"2",,,,
-"290","38042",Palpalá,"10",,,,
-"515","90056",Leales,"23",,,,
-"516","90063",Lules,"23",,,,
-"517","90070",Monteros,"23",,,,
-"518","90077",Río Chico,"23",,,,
-"519","90091",Simoca,"23",,,,
-"520","90098",Tafí del Valle,"23",,,,
-"521","90105",Tafí Viejo,"23",,,,
-"522","90112",Trancas,"23",,,,
-"523","90119",Yerba Buena,"23",,,,
-"526","94021",Islas del Atlántico Sur,"24",,,,
-"41","06182",Coronel de Marina Leonardo Rosales,"2",,,,
-"494","86098",Juan Felipe Ibarra,"22",,,,
-"332","46070",General Juan Facundo Quiroga,"12",,,,
-"525","94014",Ushuaia,"24",,2018/01/04,,
-"531","06218",Chascomús,"2",2018/01/04,,"7623",
-"537","74056",Juan Martín de Pueyrredón,"19",2018/01/04,,"7629",
-"532","06466",Lezama,"2",2018/01/04,,"7624",
-"533","46028",General Felipe Varela,"12",2018/01/04,,"7625",
-"538","94008",Río Grande,"24",2018/01/04,,"7630",
-"534","46056",Ángel Vicente Peñaloza,"12",2018/01/04,,"7626",
-"539","94011",Tolhuin,"24",2018/01/04,,"7631",
-"535","46084",General Ortiz de Ocampo,"12",2018/01/04,,"7627",
-"536","46119",San Blas de Los Sauces,"12",2018/01/04,,"7628",
-"540","94015",Ushuaia,"24",2018/01/04,,"7632",
-"47","06217",Chascomús,"2",,2018/01/04,,
-"339","46119",San Blas de los Sauces,"12",,2018/01/04,,
-"453","74056",La Capital,"19",,2018/01/04,,
-"524","94007",Río Grande,"24",,2018/01/04,,
+id,codigo,nombre
+"66","06329",General Las Heras
+"67","06336",General Lavalle
+"68","06343",General Paz
+"69","06351",General Pinto
+"70","06357",General Pueyrredón
+"71","06364",General Rodríguez
+"72","06371",General San Martín
+"73","06385",General Viamonte
+"74","06392",General Villegas
+"75","06399",Guaminí
+"76","06406",Hipólito Yrigoyen
+"77","06408",Hurlingham
+"78","06410",Ituzaingó
+"79","06412",José C. Paz
+"80","06413",Junín
+"81","06420",La Costa
+"82","06427",La Matanza
+"83","06434",Lanús
+"84","06441",La Plata
+"85","06448",Laprida
+"86","06455",Las Flores
+"87","06462",Leandro N. Alem
+"88","06469",Lincoln
+"89","06476",Lobería
+"90","06483",Lobos
+"91","06490",Lomas de Zamora
+"92","06497",Luján
+"93","06505",Magdalena
+"94","06511",Maipú
+"95","06515",Malvinas Argentinas
+"96","06518",Mar Chiquita
+"97","06525",Marcos Paz
+"98","06532",Mercedes
+"99","06539",Merlo
+"100","06547",Monte
+"101","06553",Monte Hermoso
+"102","06560",Moreno
+"103","06568",Morón
+"104","06574",Navarro
+"105","06581",Necochea
+"106","06588",9 de Julio
+"107","06595",Olavarría
+"108","06602",Patagones
+"109","06609",Pehuajó
+"110","06616",Pellegrini
+"111","06623",Pergamino
+"112","06630",Pila
+"113","06638",Pilar
+"114","06644",Pinamar
+"115","06648",Presidente Perón
+"116","06651",Puán
+"117","06655",Punta Indio
+"118","06658",Quilmes
+"119","06665",Ramallo
+"120","06672",Rauch
+"121","06679",Rivadavia
+"122","06686",Rojas
+"123","06693",Roque Pérez
+"124","06700",Saavedra
+"125","06707",Saladillo
+"126","06714",Salto
+"127","06721",Salliqueló
+"128","06728",San Andrés de Giles
+"129","06735",San Antonio de Areco
+"130","06742",San Cayetano
+"131","06749",San Fernando
+"132","06756",San Isidro
+"133","06760",San Miguel
+"134","06763",San Nicolás
+"135","06770",San Pedro
+"136","06778",San Vicente
+"137","06784",Suipacha
+"138","06791",Tandil
+"139","06798",Tapalqué
+"140","06805",Tigre
+"141","06812",Tordillo
+"142","06819",Tornquist
+"143","06826",Trenque Lauquen
+"144","06833",Tres Arroyos
+"145","06840",Tres de Febrero
+"146","06847",Tres Lomas
+"147","06854",25 de Mayo
+"148","06861",Vicente López
+"149","06868",Villa Gesell
+"150","06875",Villarino
+"151","06882",Zárate
+"152","10007",Ambato
+"153","10014",Ancasti
+"154","10021",Andalgalá
+"155","10028",Antofagasta de la Sierra
+"156","10035",Belén
+"157","10042",Capayán
+"158","10049",Capital
+"159","10056",El Alto
+"160","10063",Fray Mamerto Esquiú
+"161","10070",La Paz
+"162","10077",Paclín
+"163","10084",Pomán
+"164","10091",Santa María
+"165","10098",Santa Rosa
+"166","10105",Tinogasta
+"167","10112",Valle Viejo
+"168","14007",Calamuchita
+"169","14014",Capital
+"170","14021",Colón
+"171","14028",Cruz del Eje
+"172","14035",General Roca
+"173","14042",General San Martín
+"174","14049",Ischilín
+"175","14056",Juárez Celman
+"176","14063",Marcos Juárez
+"177","14070",Minas
+"178","14077",Pocho
+"179","14084",Presidente Roque Sáenz Peña
+"180","14091",Punilla
+"181","14098",Río Cuarto
+"182","14105",Río Primero
+"183","14112",Río Seco
+"184","14119",Río Segundo
+"185","14126",San Alberto
+"186","14133",San Javier
+"187","14140",San Justo
+"188","14147",Santa María
+"189","14154",Sobremonte
+"190","14161",Tercero Arriba
+"191","14168",Totoral
+"192","14175",Tulumba
+"193","14182",Unión
+"194","18007",Bella Vista
+"195","18014",Berón de Astrada
+"196","18021",Capital
+"197","18028",Concepción
+"198","18035",Curuzú Cuatiá
+"199","18042",Empedrado
+"200","18049",Esquina
+"201","18056",General Alvear
+"202","18063",General Paz
+"203","18070",Goya
+"204","18077",Itatí
+"205","18084",Ituzaingó
+"206","18091",Lavalle
+"207","18098",Mburucuyá
+"208","18105",Mercedes
+"209","18112",Monte Caseros
+"210","18119",Paso de los Libres
+"211","18126",Saladas
+"212","18133",San Cosme
+"213","18140",San Luis del Palmar
+"214","18147",San Martín
+"215","18154",San Miguel
+"216","18161",San Roque
+"217","18168",Santo Tomé
+"218","18175",Sauce
+"219","22007",Almirante Brown
+"220","22014",Bermejo
+"221","22021",Comandante Fernández
+"222","22028",Chacabuco
+"223","22036",12 de Octubre
+"224","22039",2 de Abril
+"225","22043",Fray Justo Santa María de Oro
+"226","22049",General Belgrano
+"227","22056",General Donovan
+"228","22063",General Güemes
+"229","22070",Independencia
+"230","22077",Libertad
+"231","22084",Libertador General San Martín
+"232","22091",Maipú
+"233","22098",Mayor Luis J. Fontana
+"234","22105",9 de Julio
+"235","22112",O'Higgins
+"236","22119",Presidencia de la Plaza
+"237","22126",1º de Mayo
+"238","22133",Quitilipi
+"239","22140",San Fernando
+"240","22147",San Lorenzo
+"241","22154",Sargento Cabral
+"242","22161",Tapenagá
+"243","22168",25 de Mayo
+"244","26007",Biedma
+"245","26014",Cushamen
+"246","26021",Escalante
+"247","26028",Florentino Ameghino
+"248","26035",Futaleufú
+"249","26042",Gaiman
+"250","26049",Gastre
+"251","26056",Languiñeo
+"252","26063",Mártires
+"253","26070",Paso de Indios
+"254","26077",Rawson
+"255","26084",Río Senguer
+"256","26091",Sarmiento
+"257","26098",Tehuelches
+"258","26105",Telsen
+"259","30008",Colón
+"260","30015",Concordia
+"261","30021",Diamante
+"262","30028",Federación
+"263","30035",Federal
+"264","30042",Feliciano
+"265","30049",Gualeguay
+"266","30056",Gualeguaychú
+"267","30063",Islas del Ibicuy
+"268","30070",La Paz
+"269","30077",Nogoyá
+"270","30084",Paraná
+"271","30088",San Salvador
+"272","30091",Tala
+"273","30098",Uruguay
+"274","30105",Victoria
+"275","30113",Villaguay
+"276","34007",Bermejo
+"277","34014",Formosa
+"278","34021",Laishi
+"279","34028",Matacos
+"280","34035",Patiño
+"281","34042",Pilagás
+"282","34049",Pilcomayo
+"283","34056",Pirané
+"284","34063",Ramón Lista
+"285","38007",Cochinoca
+"286","38014",El Carmen
+"287","38021",Dr. Manuel Belgrano
+"288","38028",Humahuaca
+"289","38035",Ledesma
+"291","38049",Rinconada
+"292","38056",San Antonio
+"293","38063",San Pedro
+"294","38070",Santa Bárbara
+"295","38077",Santa Catalina
+"296","38084",Susques
+"297","38094",Tilcara
+"298","38098",Tumbaya
+"299","38105",Valle Grande
+"300","38112",Yavi
+"301","42007",Atreucó
+"302","42014",Caleu Caleu
+"303","42021",Capital
+"304","42028",Catriló
+"305","42035",Conhelo
+"306","42042",Curacó
+"307","42049",Chalileo
+"308","42056",Chapaleufú
+"309","42063",Chical Co
+"310","42070",Guatraché
+"311","42077",Hucal
+"312","42084",Lihuel Calel
+"313","42091",Limay Mahuida
+"314","42098",Loventué
+"315","42105",Maracó
+"316","42112",Puelén
+"317","42119",Quemú Quemú
+"318","42126",Rancul
+"319","42133",Realicó
+"320","42140",Toay
+"321","42147",Trenel
+"322","42154",Utracán
+"323","46007",Arauco
+"324","46014",Capital
+"325","46021",Castro Barros
+"327","46035",Chamical
+"328","46042",Chilecito
+"329","46049",Famatina
+"331","46063",General Belgrano
+"333","46077",General Lamadrid
+"335","46091",General San Martín
+"336","46098",Vinchina
+"337","46105",Independencia
+"338","46112",Rosario Vera Peñaloza
+"340","46126",Sanagasta
+"341","50007",Capital
+"342","50014",General Alvear
+"343","50021",Godoy Cruz
+"344","50028",Guaymallén
+"345","50035",Junín
+"346","50042",La Paz
+"347","50049",Las Heras
+"348","50056",Lavalle
+"349","50063",Luján de Cuyo
+"350","50070",Maipú
+"351","50077",Malargüe
+"352","50084",Rivadavia
+"353","50091",San Carlos
+"354","50098",San Martín
+"326","46028",Coronel Felipe Varela
+"330","46056",General Angel V. Peñaloza
+"334","46084",General Ocampo
+"355","50105",San Rafael
+"356","50112",Santa Rosa
+"357","50119",Tunuyán
+"358","50126",Tupungato
+"359","54007",Apóstoles
+"360","54014",Cainguás
+"361","54021",Candelaria
+"362","54028",Capital
+"363","54035",Concepción
+"364","54042",Eldorado
+"365","54049",General Manuel Belgrano
+"366","54056",Guaraní
+"367","54063",Iguazú
+"368","54070",Leandro N. Alem
+"369","54077",Libertador General San Martín
+"370","54084",Montecarlo
+"371","54091",Oberá
+"372","54098",San Ignacio
+"373","54105",San Javier
+"374","54112",San Pedro
+"375","54119",25 de Mayo
+"376","58007",Aluminé
+"377","58014",Añelo
+"378","58021",Catan Lil
+"379","58028",Collón Curá
+"380","58035",Confluencia
+"381","58042",Chos Malal
+"382","58049",Huiliches
+"383","58056",Lácar
+"384","58063",Loncopué
+"385","58070",Los Lagos
+"386","58077",Minas
+"387","58084",Ñorquín
+"388","58091",Pehuenches
+"389","58098",Picún Leufú
+"390","58105",Picunches
+"391","58112",Zapala
+"392","62007",Adolfo Alsina
+"393","62014",Avellaneda
+"394","62021",Bariloche
+"395","62028",Conesa
+"396","62035",El Cuy
+"397","62042",General Roca
+"398","62049",9 de Julio
+"399","62056",Ñorquinco
+"400","62063",Pichi Mahuida
+"401","62070",Pilcaniyeu
+"402","62077",San Antonio
+"403","62084",Valcheta
+"404","62091",25 de Mayo
+"405","66007",Anta
+"406","66014",Cachi
+"407","66021",Cafayate
+"408","66028",Capital
+"409","66035",Cerrillos
+"410","66042",Chicoana
+"411","66049",General Güemes
+"412","66056",General José de San Martín
+"414","66063",Guachipas
+"415","66070",Iruya
+"416","66077",La Caldera
+"417","66084",La Candelaria
+"418","66091",La Poma
+"419","66098",La Viña
+"420","66105",Los Andes
+"421","66112",Metán
+"422","66119",Molinos
+"423","66126",Orán
+"424","66133",Rivadavia
+"425","66140",Rosario de la Frontera
+"426","66147",Rosario de Lerma
+"427","66154",San Carlos
+"428","66161",Santa Victoria
+"429","70007",Albardón
+"430","70014",Angaco
+"431","70021",Calingasta
+"432","70035",Caucete
+"433","70049",Iglesia
+"434","70056",Jáchal
+"435","70063",9 de Julio
+"436","70070",Pocito
+"437","70077",Rawson
+"438","70084",Rivadavia
+"439","70091",San Martín
+"440","70098",Santa Lucía
+"441","70105",Sarmiento
+"442","70112",Ullúm
+"443","70119",Valle Fértil
+"444","70126",25 de Mayo
+"445","70133",Zonda
+"446","74007",Ayacucho
+"447","74014",Belgrano
+"448","74021",Coronel Pringles
+"449","74028",Chacabuco
+"450","74035",General Pedernera
+"451","74042",Gobernador Dupuy
+"452","74049",Junín
+"454","74063",Libertador General San Martín
+"455","78007",Corpen Aike
+"456","78014",Deseado
+"457","78021",Güer Aike
+"458","78028",Lago Argentino
+"459","78035",Lago Buenos Aires
+"460","78042",Magallanes
+"461","78049",Río Chico
+"462","82007",Belgrano
+"463","82014",Caseros
+"464","82021",Castellanos
+"465","82028",Constitución
+"466","82035",Garay
+"467","82042",General López
+"468","82049",General Obligado
+"469","82056",Iriondo
+"470","82063",La Capital
+"471","82070",Las Colonias
+"472","82077",9 de Julio
+"473","82084",Rosario
+"474","82091",San Cristóbal
+"475","82098",San Javier
+"476","82105",San Jerónimo
+"477","82112",San Justo
+"478","82119",San Lorenzo
+"479","82126",San Martín
+"480","82133",Vera
+"481","86007",Aguirre
+"482","86014",Alberdi
+"483","86021",Atamisqui
+"484","86028",Avellaneda
+"485","86035",Banda
+"486","86042",Belgrano
+"487","86049",Capital
+"488","86056",Copo
+"489","86063",Choya
+"490","86070",Figueroa
+"491","86077",General Taboada
+"492","86084",Guasayán
+"493","86091",Jiménez
+"495","86105",Loreto
+"496","86112",Mitre
+"497","86119",Moreno
+"498","86126",Ojo de Agua
+"16","06007",Adolfo Alsina
+"17","06014",Adolfo Gonzales Chaves
+"18","06021",Alberti
+"19","06028",Almirante Brown
+"20","06035",Avellaneda
+"21","06042",Ayacucho
+"22","06049",Azul
+"23","06056",Bahía Blanca
+"24","06063",Balcarce
+"25","06070",Baradero
+"26","06077",Arrecifes
+"27","06084",Benito Juárez
+"28","06091",Berazategui
+"29","06098",Berisso
+"30","06105",Bolívar
+"31","06112",Bragado
+"32","06119",Brandsen
+"33","06126",Campana
+"34","06134",Cañuelas
+"35","06140",Capitán Sarmiento
+"36","06147",Carlos Casares
+"37","06154",Carlos Tejedor
+"38","06161",Carmen de Areco
+"39","06168",Castelli
+"40","06175",Colón
+"43","06189",Coronel Dorrego
+"44","06196",Coronel Pringles
+"45","06203",Coronel Suárez
+"499","86133",Pellegrini
+"500","86140",Quebrachos
+"501","86147",Río Hondo
+"502","86154",Rivadavia
+"503","86161",Robles
+"504","86168",Salavina
+"505","86175",San Martín
+"506","86182",Sarmiento
+"507","86189",Silípica
+"508","90007",Burruyacú
+"509","90014",Cruz Alta
+"510","90021",Chicligasta
+"511","90028",Famaillá
+"512","90035",Graneros
+"513","90042",Juan Bautista Alberdi
+"514","90049",La Cocha
+"527","94028",Antártida Argentina
+"1","02001",Comuna 1
+"2","02002",Comuna 2
+"3","02003",Comuna 3
+"4","02004",Comuna 4
+"5","02005",Comuna 5
+"6","02006",Comuna 6
+"7","02007",Comuna 7
+"8","02008",Comuna 8
+"9","02009",Comuna 9
+"10","02010",Comuna 10
+"11","02011",Comuna 11
+"12","02012",Comuna 12
+"13","02013",Comuna 13
+"14","02014",Comuna 14
+"15","02015",Comuna 15
+"528","70028",Capital
+"529","70042",Chimbas
+"530","90084",Capital
+"46","06210",Chacabuco
+"48","06224",Chivilcoy
+"49","06231",Daireaux
+"50","06238",Dolores
+"51","06245",Ensenada
+"52","06252",Escobar
+"53","06260",Esteban Echeverría
+"54","06266",Exaltación de la Cruz
+"55","06270",Ezeiza
+"56","06274",Florencio Varela
+"57","06277",Florentino Ameghino
+"58","06280",General Alvarado
+"59","06287",General Alvear
+"60","06294",General Arenales
+"61","06301",General Belgrano
+"62","06308",General Guido
+"63","06315",General Juan Madariaga
+"65","06322",General La Madrid
+"290","38042",Palpalá
+"515","90056",Leales
+"516","90063",Lules
+"517","90070",Monteros
+"518","90077",Río Chico
+"519","90091",Simoca
+"520","90098",Tafí del Valle
+"521","90105",Tafí Viejo
+"522","90112",Trancas
+"523","90119",Yerba Buena
+"526","94021",Islas del Atlántico Sur
+"41","06182",Coronel de Marina Leonardo Rosales
+"494","86098",Juan Felipe Ibarra
+"332","46070",General Juan Facundo Quiroga
+"525","94014",Ushuaia
+"531","06218",Chascomús
+"537","74056",Juan Martín de Pueyrredón
+"532","06466",Lezama
+"533","46028",General Felipe Varela
+"538","94008",Río Grande
+"534","46056",Ángel Vicente Peñaloza
+"539","94011",Tolhuin
+"535","46084",General Ortiz de Ocampo
+"536","46119",San Blas de Los Sauces
+"540","94015",Ushuaia
+"47","06217",Chascomús
+"339","46119",San Blas de los Sauces
+"453","74056",La Capital
+"524","94007",Río Grande
