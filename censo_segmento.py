@@ -249,12 +249,12 @@ class CensoSegmento:
         ####### Agrego tabla provincia
         capa = (origen + '\datos_prov\provincia.csv')
         nomcapa = 'provincia'  
-        layer = QgsVectorLayer(capa,nomcapa, 'org' )
+        layer = QgsVectorLayer(capa,nomcapa, 'ogr' )
         if not layer.isValid():
             print ("la capa no es correcta")
         QgsProject.instance().addMapLayer(layer)
         renderer = layer.renderer()
-               
+           
         
         ####### Agrego tabla departamento##################################
         capa = (origen + '\datos_prov\departamentos.csv')
