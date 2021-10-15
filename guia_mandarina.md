@@ -2,9 +2,13 @@
 
 **Instalar VPN**
 
-Hablar con mesa de ayuda
+Hablar con mesa de ayuda si no se puede conectar
 
-**Instalas Qgis 3.10** en adelante
+**“salida-grafica-atlas”**
+
+Descargar desde el segmentador web, (se recomienda descomprimir en el escritorio la carpeta del plugin)
+
+**Instalas Qgis 3.16** en adelante
 
 [*https://www.qgis.org/es/site/*](https://www.qgis.org/es/site/)
 
@@ -24,6 +28,7 @@ C:\\Program Files\\QGIS 3.10\\apps\\qgis-ltr\\python\\plugins
 
 Después se verá :D
 
+
 1.  **Desde Qgis**
 
 3.1- *Activar Complemento desde el menú “**Complementos\\Administrar e
@@ -38,9 +43,7 @@ superior
 ![](.//media/image2.png){width="1.5877121609798774in"
 height="0.96875in"}
 
-3.3- *Crear conexión a BD*
-
-Pedir datos a su administrador de confianza
+3.3- **Boton mandarina**
 
 Arrancamos con Buena Onda !!!!!!!!!!!!!
 
@@ -58,8 +61,9 @@ Completar con ***SU Contraseña de BD***
 ![](.//media/image5.png){width="3.1486111111111112in"
 height="1.34375in"}
 
-Completar con la ruta de la carpeta **“salida-grafica-atlas”** (se
-recomienda siempre el escritorio)
+Completar con el aglomerado que quiere automatizar la salida grafica, por ejemplo "e0055"
+
+
 
 **Ejemplo **
 
