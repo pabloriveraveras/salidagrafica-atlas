@@ -245,16 +245,17 @@ class CensoSegmento:
 #       print(sys.path[0])
 #       print (origen)
 
-
         ####################### Agrego las tablas .CSV de datos geograficos############################
         ####### Agrego tabla provincia
-        capa = origen + '\datos_prov\provincia.csv'
+        capa = (origen + '\datos_prov\provincia.csv')
         nomcapa = 'provincia'  
-        layer = QgsVectorLayer(capa,nomcapa,'ogr')
+        layer = QgsVectorLayer(capa,nomcapa, 'ogr' )
         if not layer.isValid():
             print ("la capa no es correcta")
         QgsProject.instance().addMapLayer(layer)
         renderer = layer.renderer()
+           
+        
         ####### Agrego tabla departamento##################################
         capa = (origen + '\datos_prov\departamentos.csv')
         nomcapa = 'departamento'  
