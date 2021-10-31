@@ -356,6 +356,24 @@ class CensoSegmento:
 ###        
 #
 ##
+ #### Plantilla R3 ###############  
+     ruta1= origen + r'\plantillas\r3.qpt'
+            if os.path.exists(ruta):
+                with open(ruta1, 'r') as templateFile:
+                    myTemplateContent = templateFile.read()
+                layout=QgsPrintLayout(pry)
+                lmg = QgsProject.instance().layoutManager()
+                layout.setName("R3")
+                layout.initializeDefaults()
+                myDocument = QDomDocument()
+                myDocument.setContent(myTemplateContent)
+                ms = QgsMapSettings()
+                layout.loadFromTemplate(myDocument,QgsReadWriteContext(),True)
+                lmg.addLayout(layout)
+            else:
+                print("error en la ruta del archivo" )
+                
+    #### Plantilla tamaño A4 ###############          
         ruta= origen + r'\plantillas\radio_a4.qpt'
         if os.path.exists(ruta):
             with open(ruta, 'r') as templateFile:
@@ -372,7 +390,7 @@ class CensoSegmento:
         else:
             print("error en la ruta del archivo" )
     
-        #### Plantilla tamaño A3 ###############  
+    #### Plantilla tamaño A3 ###############  
         ruta2= ruta= origen + r'\plantillas\radio_a3.qpt'
         if os.path.exists(ruta2):
             with open(ruta2, 'r') as templateFile:
