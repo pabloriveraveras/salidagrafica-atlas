@@ -372,7 +372,7 @@ class CensoSegmento:
             print("error en la ruta del archivo R3" )
             
     #### Plantilla tamaño A4 ###############          
-        ruta= origen + r'\plantillas\radio_a4.qpt'
+        ruta= origen + r'/plantillas/radio_a4.qpt'
         if os.path.exists(ruta):
             with open(ruta, 'r') as templateFile:
                 myTemplateContent = templateFile.read()
@@ -389,7 +389,7 @@ class CensoSegmento:
             print("error en la ruta del archivo" )
     
     #### Plantilla tamaño A3 ###############  
-        ruta2= ruta= origen + r'\plantillas\radio_a3.qpt'
+        ruta2= ruta= origen + r'/plantillas/radio_a3.qpt'
         if os.path.exists(ruta2):
             with open(ruta2, 'r') as templateFile:
                 myTemplateContent = templateFile.read()
