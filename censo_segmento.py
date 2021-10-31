@@ -353,26 +353,24 @@ class CensoSegmento:
         #### Plantilla tamaño A4 ###############  
         pry= QgsProject.instance()
         #Añadi una verificación de la ruta del archivo qtp
-###        
-#
-##
+
  #### Plantilla R3 ###############  
-     ruta3= origen + r'\plantillas\R3.qpt'
-            if os.path.exists(ruta):
-                with open(ruta3, 'r') as templateFile:
-                    myTemplateContent = templateFile.read()
-                layout=QgsPrintLayout(pry)
-                lmg = QgsProject.instance().layoutManager()
-                layout.setName("R3")
-                layout.initializeDefaults()
-                myDocument = QDomDocument()
-                myDocument.setContent(myTemplateContent)
-                ms = QgsMapSettings()
-                layout.loadFromTemplate(myDocument,QgsReadWriteContext(),True)
-                lmg.addLayout(layout)
-            else:
-                print("error en la ruta del archivo R3" )
-                
+        ruta3= origen + r'\plantillas\R3.qpt'
+        if os.path.exists(ruta):
+            with open(ruta3, 'r') as templateFile:
+                myTemplateContent = templateFile.read()
+            layout=QgsPrintLayout(pry)
+            lmg = QgsProject.instance().layoutManager()
+            layout.setName("R3")
+            layout.initializeDefaults()
+            myDocument = QDomDocument()
+            myDocument.setContent(myTemplateContent)
+            ms = QgsMapSettings()
+            layout.loadFromTemplate(myDocument,QgsReadWriteContext(),True)
+            lmg.addLayout(layout)
+        else:
+            print("error en la ruta del archivo R3" )
+            
     #### Plantilla tamaño A4 ###############          
         ruta= origen + r'\plantillas\radio_a4.qpt'
         if os.path.exists(ruta):
