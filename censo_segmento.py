@@ -355,7 +355,7 @@ class CensoSegmento:
         #Añadi una verificación de la ruta del archivo qtp
 
  #### Plantilla R3 ###############  
-        ruta3= origen + r'\plantillas\R3.qpt'
+        ruta3= origen + r'/plantillas/R3.qpt'
         if os.path.exists(ruta):
             with open(ruta3, 'r') as templateFile:
                 myTemplateContent = templateFile.read()
