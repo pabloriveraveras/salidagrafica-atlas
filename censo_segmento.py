@@ -220,7 +220,7 @@ class CensoSegmento:
 
     def runRadio(self, iface):
         from qgis.utils import iface
-        #####################################Conexion existente en el admnistrador de BD##############################################
+        #####################################Conexion   existente en el admnistrador de BD##############################################
         ##########Conexion desde BD a Postgis
         QgsProject.instance().clear()
         qs = QSettings()
