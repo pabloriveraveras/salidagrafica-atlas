@@ -21,6 +21,9 @@
  *                                                                         *
  ***************************************************************************/
 """
+
+import from PyQt5.QtCore
+
 from PyQt5.QtCore import QSettings, QTranslator, qVersion, QVersionNumber, QCoreApplication, Qt, QObject, pyqtSignal
 from qgis.PyQt.QtGui import QIcon
 from PyQt5.QtWidgets import QAction, QDialog, QFormLayout, QInputDialog , QLineEdit , QMessageBox
