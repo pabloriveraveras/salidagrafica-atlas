@@ -15,6 +15,7 @@ qs = QSettings()
 
 ############Pedir al usuario cargar los campos de  usuario y contraseña
 
+import psycopg2
 
  
 def conectar():
